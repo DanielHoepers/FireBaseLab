@@ -1,15 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:2:1-4:12
 MERGED from [com.google.android.material:material:1.14.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/038be3850ab5deca18889600fac7c728/transformed/material-1.14.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/39dfcca6e85119d0a413f681eddd94bd/transformed/constraintlayout-2.2.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.8.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9963c514951541c9396c03b9fef8bf1a/transformed/appcompat-resources-1.8.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.8.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/348962f360ffbfddaa1ad152ec3e45d4/transformed/appcompat-1.8.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/a6941da5e622e1c4564a0347b94a5fda/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/c2326bf385f25f21974cdac3ee1bae4e/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/14fbfa252c923fd2e2af22a1ea174d7a/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6412e9c8ea9062b8fecb400da8d5d44c/transformed/play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
@@ -17,11 +20,16 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3e23182cf979cba09dc662a840ec2312/transformed/recaptcha-18.6.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/55d9a3b8616bddc81dcc6c44e9e46b90/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/36f4a54443c4ef2c1a99bf987f307446/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/15ad5cadfbcf5bde7f0c87da6b68fee6/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/53275ef37ac8b2766d2286e85314f7f0/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5d48beb53c4bbf0ee7e80f7821f3c251/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aff5bf8445259f355d55e60936169ff5/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/c09ee115b01488b418ad3f9d78d75774/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ab9bad5b20bcfbc19dc8e6cafc3b58d3/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/824ba15df0302457b454fa3bae236800/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/01491c5a78e3a3a5a2929e6e69368e0f/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/54f0ce601f72fb615f688e0afa518d76/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
@@ -36,6 +44,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/danielhoepers/
 MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/8307d4c350fe0e0fa6c94174fa1597c9/transformed/graphics-shapes-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f0023263f3646b4013bf294dad699d5e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4b299b4151d3e692b0e281f1f4547ba7/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f90537d75faa009102a4733746954369/transformed/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/de6c55a124649652abf4954d598c0a70/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d93906485a7fe644a5f463644cba7103/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4753bd35b51fe8c96e71c7e0cd03d282/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/45a9ab18a167e7e598790882d27c2acb/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
@@ -53,7 +63,11 @@ MERGED from [androidx.datastore:datastore-core-android:1.1.7] /Users/danielhoepe
 MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/05b41d37f472c5a82207cbd002661dbf/transformed/datastore-preferences-core-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f5f6fa5d62b3c404f25c1ac36b97186f/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ef04f04927fb743df2e8a9bf082eb6a1/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/0bc23c034ac043c00666f082d24be2eb/transformed/firebase-installations-interop-17.3.0/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e6a2194acd9e62f4fd1ebb36a4bdb315/transformed/play-services-tasks-18.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6f1e87ccd49c10953291673f958a03ff/transformed/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b0a6bfe5a69aea08411bc63271734efc/transformed/play-services-basement-18.9.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.4] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/fc163cef53189f4adbc3f3ac0dae2774/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.13.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f05b83836460405f35aa8f510200f48e/transformed/activity-1.13.0/AndroidManifest.xml:17:1-22:12
@@ -70,34 +84,58 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/danielhoepers/.gradl
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6db5eecd4af0a3334944e9107cdf8be6/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1083378f6ab4ddd34f1fcb875af2aff6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:19.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/8d001f174c332dc2e53fc7a1c095ede7/transformed/firebase-components-19.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-config-interop:16.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7b826fd1d184e5aa0e7279d9225c04de/transformed/firebase-config-interop-16.0.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/37b5bdd5d26cdf1f6d70a1915f634968/transformed/firebase-encoders-json-18.0.1/AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5f19bb93ca4580f8735acc1d375b9f6c/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3a37cbf2c8c045aeed77eb8430631c09/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/332946e41e4bf748de7687e38d734f30/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/89d38e44510cecd55dd9a8e4a8e54201/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aba1e83b725c2fedf361eaaa58e5ccd3/transformed/grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/db3a68f69c877420f58891736fd07a14/transformed/protolite-well-known-types-18.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d5317114b90e957ac73f2cb68860b3a4/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
 	package
-		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3e23182cf979cba09dc662a840ec2312/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3e23182cf979cba09dc662a840ec2312/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
 	android:name
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-27:19
-INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-27:19
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-25:19
+INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:3:5-56
 MERGED from [com.google.android.material:material:1.14.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/038be3850ab5deca18889600fac7c728/transformed/material-1.14.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.14.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/038be3850ab5deca18889600fac7c728/transformed/material-1.14.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/39dfcca6e85119d0a413f681eddd94bd/transformed/constraintlayout-2.2.2/AndroidManifest.xml:7:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/39dfcca6e85119d0a413f681eddd94bd/transformed/constraintlayout-2.2.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:11:5-22:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/14fbfa252c923fd2e2af22a1ea174d7a/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/14fbfa252c923fd2e2af22a1ea174d7a/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6412e9c8ea9062b8fecb400da8d5d44c/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
@@ -106,22 +144,36 @@ MERGED from [com.google.android.play:integrity:1.3.0] /Users/danielhoepers/.grad
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/55d9a3b8616bddc81dcc6c44e9e46b90/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/36f4a54443c4ef2c1a99bf987f307446/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/36f4a54443c4ef2c1a99bf987f307446/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:11:5-22:19
 MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/53275ef37ac8b2766d2286e85314f7f0/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/53275ef37ac8b2766d2286e85314f7f0/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5d48beb53c4bbf0ee7e80f7821f3c251/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5d48beb53c4bbf0ee7e80f7821f3c251/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aff5bf8445259f355d55e60936169ff5/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aff5bf8445259f355d55e60936169ff5/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ab9bad5b20bcfbc19dc8e6cafc3b58d3/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ab9bad5b20bcfbc19dc8e6cafc3b58d3/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/01491c5a78e3a3a5a2929e6e69368e0f/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/01491c5a78e3a3a5a2929e6e69368e0f/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f90537d75faa009102a4733746954369/transformed/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f90537d75faa009102a4733746954369/transformed/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/437473577a2b9c497114d837364ca2cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/437473577a2b9c497114d837364ca2cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
 MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e6a2194acd9e62f4fd1ebb36a4bdb315/transformed/play-services-tasks-18.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e6a2194acd9e62f4fd1ebb36a4bdb315/transformed/play-services-tasks-18.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6f1e87ccd49c10953291673f958a03ff/transformed/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6f1e87ccd49c10953291673f958a03ff/transformed/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b0a6bfe5a69aea08411bc63271734efc/transformed/play-services-basement-18.9.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b0a6bfe5a69aea08411bc63271734efc/transformed/play-services-basement-18.9.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/77c545cfc1620a061ca5b52ad6a8bbae/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
@@ -133,67 +185,61 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/danielhoepers/.gradl
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d5317114b90e957ac73f2cb68860b3a4/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d5317114b90e957ac73f2cb68860b3a4/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:8:9-42
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:8:9-37
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:8:9-37
 	android:allowBackup
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:7:9-35
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:10:9-50
-activity#com.example.authfirebase.TokenActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:9-76
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:10:9-50
+	android:usesCleartextTraffic
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:3:18-53
+activity#com.example.authfirebase.TarefasActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:9-78
 	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:49-73
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:51-75
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:19-48
-activity#com.example.authfirebase.RecuperarSenhaActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:9-85
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:19-50
+activity#com.example.authfirebase.CloudFunctionActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:9-84
 	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:58-82
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:57-81
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:19-57
-activity#com.example.authfirebase.VerificarEmailActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:9-85
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:19-56
+activity#com.example.authfirebase.remoteconfig.RemoteConfigActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:9-96
 	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:58-82
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:69-93
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:19-57
-activity#com.example.authfirebase.LoginActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:15:9-76
-	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:15:49-73
-	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:15:19-48
-activity#com.example.authfirebase.CadastroActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:16:9-79
-	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:16:52-76
-	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:16:19-51
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:19-68
 activity#com.example.authfirebase.MainActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:18:9-25:20
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:16:9-23:20
 	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:19:13-41
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:21:13-24:29
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
-INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
+INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.14.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/038be3850ab5deca18889600fac7c728/transformed/material-1.14.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.14.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/038be3850ab5deca18889600fac7c728/transformed/material-1.14.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/39dfcca6e85119d0a413f681eddd94bd/transformed/constraintlayout-2.2.2/AndroidManifest.xml:5:5-44
@@ -206,6 +252,10 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/danielhoepers/.gradle/
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/a6941da5e622e1c4564a0347b94a5fda/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:6:5-44
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/c2326bf385f25f21974cdac3ee1bae4e/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/c2326bf385f25f21974cdac3ee1bae4e/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/14fbfa252c923fd2e2af22a1ea174d7a/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
@@ -220,16 +270,26 @@ MERGED from [com.google.android.play:integrity:1.3.0] /Users/danielhoepers/.grad
 MERGED from [com.google.android.play:integrity:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/55d9a3b8616bddc81dcc6c44e9e46b90/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/36f4a54443c4ef2c1a99bf987f307446/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/36f4a54443c4ef2c1a99bf987f307446/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/15ad5cadfbcf5bde7f0c87da6b68fee6/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/15ad5cadfbcf5bde7f0c87da6b68fee6/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/53275ef37ac8b2766d2286e85314f7f0/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/53275ef37ac8b2766d2286e85314f7f0/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5d48beb53c4bbf0ee7e80f7821f3c251/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5d48beb53c4bbf0ee7e80f7821f3c251/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aff5bf8445259f355d55e60936169ff5/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aff5bf8445259f355d55e60936169ff5/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/c09ee115b01488b418ad3f9d78d75774/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/c09ee115b01488b418ad3f9d78d75774/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ab9bad5b20bcfbc19dc8e6cafc3b58d3/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ab9bad5b20bcfbc19dc8e6cafc3b58d3/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/824ba15df0302457b454fa3bae236800/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/824ba15df0302457b454fa3bae236800/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/01491c5a78e3a3a5a2929e6e69368e0f/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
@@ -258,6 +318,10 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/danielhoepers/.gra
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f0023263f3646b4013bf294dad699d5e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4b299b4151d3e692b0e281f1f4547ba7/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4b299b4151d3e692b0e281f1f4547ba7/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f90537d75faa009102a4733746954369/transformed/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f90537d75faa009102a4733746954369/transformed/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/de6c55a124649652abf4954d598c0a70/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/de6c55a124649652abf4954d598c0a70/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d93906485a7fe644a5f463644cba7103/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d93906485a7fe644a5f463644cba7103/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4753bd35b51fe8c96e71c7e0cd03d282/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
@@ -292,8 +356,16 @@ MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/danielhoepers/.g
 MERGED from [androidx.datastore:datastore-android:1.1.7] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/f5f6fa5d62b3c404f25c1ac36b97186f/transformed/datastore-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ef04f04927fb743df2e8a9bf082eb6a1/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/ef04f04927fb743df2e8a9bf082eb6a1/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/0bc23c034ac043c00666f082d24be2eb/transformed/firebase-installations-interop-17.3.0/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/0bc23c034ac043c00666f082d24be2eb/transformed/firebase-installations-interop-17.3.0/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e6a2194acd9e62f4fd1ebb36a4bdb315/transformed/play-services-tasks-18.4.0/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e6a2194acd9e62f4fd1ebb36a4bdb315/transformed/play-services-tasks-18.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6f1e87ccd49c10953291673f958a03ff/transformed/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/6f1e87ccd49c10953291673f958a03ff/transformed/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b0a6bfe5a69aea08411bc63271734efc/transformed/play-services-basement-18.9.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b0a6bfe5a69aea08411bc63271734efc/transformed/play-services-basement-18.9.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.5.4] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/fc163cef53189f4adbc3f3ac0dae2774/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
@@ -326,22 +398,46 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1083378f6ab4ddd34f1fcb875af2aff6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:19.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/8d001f174c332dc2e53fc7a1c095ede7/transformed/firebase-components-19.0.0/AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:19.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/8d001f174c332dc2e53fc7a1c095ede7/transformed/firebase-components-19.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-config-interop:16.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7b826fd1d184e5aa0e7279d9225c04de/transformed/firebase-config-interop-16.0.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-config-interop:16.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7b826fd1d184e5aa0e7279d9225c04de/transformed/firebase-config-interop-16.0.1/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/37b5bdd5d26cdf1f6d70a1915f634968/transformed/firebase-encoders-json-18.0.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/37b5bdd5d26cdf1f6d70a1915f634968/transformed/firebase-encoders-json-18.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5f19bb93ca4580f8735acc1d375b9f6c/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5f19bb93ca4580f8735acc1d375b9f6c/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3a37cbf2c8c045aeed77eb8430631c09/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3a37cbf2c8c045aeed77eb8430631c09/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/332946e41e4bf748de7687e38d734f30/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/332946e41e4bf748de7687e38d734f30/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/89d38e44510cecd55dd9a8e4a8e54201/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/89d38e44510cecd55dd9a8e4a8e54201/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aba1e83b725c2fedf361eaaa58e5ccd3/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aba1e83b725c2fedf361eaaa58e5ccd3/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/db3a68f69c877420f58891736fd07a14/transformed/protolite-well-known-types-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/db3a68f69c877420f58891736fd07a14/transformed/protolite-well-known-types-18.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d5317114b90e957ac73f2cb68860b3a4/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/d5317114b90e957ac73f2cb68860b3a4/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3e23182cf979cba09dc662a840ec2312/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3e23182cf979cba09dc662a840ec2312/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aba1e83b725c2fedf361eaaa58e5ccd3/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/aba1e83b725c2fedf361eaaa58e5ccd3/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:26:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
@@ -394,8 +490,20 @@ intent-filter#action:name:android.intent.action.VIEW+category:name:android.inten
 ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:53:13-63:29
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:12:9-21:19
 MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:30:9-38:19
 MERGED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:11:9-15:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:11:9-15:19
 	android:exported
 		ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:68:13-37
 	tools:targetApi
@@ -410,6 +518,30 @@ ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.grad
 		ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:71:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:24.2.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/16c8b0d9d21c5f68c47ca94f643e8fc4/transformed/firebase-auth-24.2.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:26.6.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.functions.FirebaseFunctionsKtxRegistrar
+ADDED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:16:17-122
+meta-data#com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar
+ADDED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-functions:22.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/AndroidManifest.xml:19:17-111
 service#androidx.credentials.playservices.CredentialProviderMetadataHolder
 ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/14fbfa252c923fd2e2af22a1ea174d7a/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
 	android:enabled
@@ -464,6 +596,48 @@ uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
 ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3e23182cf979cba09dc662a840ec2312/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:5-98
 	android:name
 		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/3e23182cf979cba09dc662a840ec2312/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar
+ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:30:17-128
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:23.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/AndroidManifest.xml:33:17-117
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.1.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/AndroidManifest.xml:19:17-127
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:23:9-28:39
 	android:authorities
@@ -483,13 +657,13 @@ ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gr
 	android:name
 		ADDED from [com.google.firebase:firebase-common:22.2.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/1b1805346ebfa2e8631293be3a8b999d/transformed/firebase-common-22.2.1/AndroidManifest.xml:36:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/AndroidManifest.xml:20:19-85
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/01491c5a78e3a3a5a2929e6e69368e0f/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/437473577a2b9c497114d837364ca2cb/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
@@ -538,6 +712,12 @@ uses-permission#com.example.authfirebase.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSIO
 ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.9.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/b0a6bfe5a69aea08411bc63271734efc/transformed/play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
 	android:value

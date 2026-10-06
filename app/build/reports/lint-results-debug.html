@@ -177,9 +177,9 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 73 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 37 warnings</span>
       <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Fri Sep 18 19:56:07 GMT-03:00 2026 by AGP (9.3.2)</nav>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Wed Sep 30 11:39:16 GMT-03:00 2026 by AGP (9.3.2)</nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -187,13 +187,12 @@ document.getElementById(id).style.display = 'none';
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
       <a class="mdl-navigation__link" href="#AndroidGradlePluginVersion"><i class="material-icons warning-icon">warning</i>Obsolete Android Gradle Plugin Version (2)</a>
-      <a class="mdl-navigation__link" href="#Overdraw"><i class="material-icons warning-icon">warning</i>Overdraw: Painting regions more than once (6)</a>
-      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (1)</a>
+      <a class="mdl-navigation__link" href="#Overdraw"><i class="material-icons warning-icon">warning</i>Overdraw: Painting regions more than once (4)</a>
+      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (3)</a>
       <a class="mdl-navigation__link" href="#MissingApplicationIcon"><i class="material-icons warning-icon">warning</i>Missing application icon (1)</a>
-      <a class="mdl-navigation__link" href="#Autofill"><i class="material-icons warning-icon">warning</i>Use Autofill (6)</a>
-      <a class="mdl-navigation__link" href="#UseTomlInstead"><i class="material-icons warning-icon">warning</i>Use TOML Version Catalog Instead (2)</a>
-      <a class="mdl-navigation__link" href="#SetTextI18n"><i class="material-icons warning-icon">warning</i>TextView Internationalization (13)</a>
-      <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (42)</a>
+      <a class="mdl-navigation__link" href="#UseTomlInstead"><i class="material-icons warning-icon">warning</i>Use TOML Version Catalog Instead (5)</a>
+      <a class="mdl-navigation__link" href="#SetTextI18n"><i class="material-icons warning-icon">warning</i>TextView Internationalization (3)</a>
+      <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (19)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -214,33 +213,28 @@ document.getElementById(id).style.display = 'none';
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Performance">Performance</a>
 </td></tr>
 <tr>
-<td class="countColumn">6</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#Overdraw">Overdraw</a>: Overdraw: Painting regions more than once</td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">3</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#UnusedResources">UnusedResources</a>: Unused resources</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
 </td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#MissingApplicationIcon">MissingApplicationIcon</a>: Missing application icon</td></tr>
-<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability">Usability</a>
-</td></tr>
-<tr>
-<td class="countColumn">6</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#Autofill">Autofill</a>: Use Autofill</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Productivity">Productivity</a>
 </td></tr>
 <tr>
-<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">5</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#UseTomlInstead">UseTomlInstead</a>: Use TOML Version Catalog Instead</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
 </td></tr>
 <tr>
-<td class="countColumn">13</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">3</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#SetTextI18n">SetTextI18n</a>: TextView Internationalization</td></tr>
 <tr>
-<td class="countColumn">42</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">19</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#HardcodedText">HardcodedText</a>: Hardcoded text</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#ExtraIssues">Included Additional Checks (30)</a>
 </td></tr>
@@ -319,7 +313,7 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/res/layout/activity_cloud_function.xml">../../src/main/res/layout/activity_cloud_function.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
 <span class="lineno">  3 </span>    <span class="prefix">xmlns:</span><span class="attribute">app</span>=<span class="value">"http://schemas.android.com/apk/res-auto"</span>
 <span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
 <span class="lineno">  5 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
@@ -328,49 +322,31 @@ Dismiss</button>            </div>
 <span class="lineno">  8 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
 </pre>
 
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:5</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
-<span class="lineno">  2 </span><span class="tag">&lt;ScrollView</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>
-<span class="lineno">  3 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
-<span class="caretline"><span class="lineno">  5 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  6 </span>    <span class="prefix">android:</span><span class="attribute">fillViewport</span>=<span class="value">"true"</span>
-<span class="lineno">  7 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
-</pre>
-
 <span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
-<span class="lineno">   3 </span>    <span class="prefix">xmlns:</span><span class="attribute">app</span>=<span class="value">"http://schemas.android.com/apk/res-auto"</span>
-<span class="lineno">   4 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">   5 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
-<span class="caretline"><span class="lineno">   6 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">   7 </span>    <span class="prefix">android:</span><span class="attribute">fillViewport</span>=<span class="value">"true"</span>
-<span class="lineno">   8 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
+<span class="lineno">  3 </span>    <span class="prefix">xmlns:</span><span class="attribute">app</span>=<span class="value">"http://schemas.android.com/apk/res-auto"</span>
+<span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno">  5 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
+<span class="caretline"><span class="lineno">  6 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  7 </span>    <span class="prefix">android:</span><span class="attribute">fillViewport</span>=<span class="value">"true"</span>
+<span class="lineno">  8 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
 </pre>
 
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:5</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
-<span class="lineno">  2 </span><span class="tag">&lt;ScrollView</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>
-<span class="lineno">  3 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
-<span class="caretline"><span class="lineno">  5 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  6 </span>    <span class="prefix">android:</span><span class="attribute">fillViewport</span>=<span class="value">"true"</span>
+<span class="location"><a href="../../src/main/res/layout/activity_tarefas.xml">../../src/main/res/layout/activity_tarefas.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
+<span class="lineno">  3 </span>    <span class="prefix">xmlns:</span><span class="attribute">app</span>=<span class="value">"http://schemas.android.com/apk/res-auto"</span>
+<span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno">  5 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
+<span class="caretline"><span class="lineno">  6 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno">  7 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
-</pre>
+<span class="lineno">  8 </span>
+<span class="lineno">  9 </span>    <span class="tag">&lt;LinearLayout</span></pre>
 
-<span class="location"><a href="../../src/main/res/layout/activity_token.xml">../../src/main/res/layout/activity_token.xml</a>:5</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
-<span class="lineno">  2 </span><span class="tag">&lt;ScrollView</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>
-<span class="lineno">  3 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
-<span class="caretline"><span class="lineno">  5 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  6 </span>    <span class="prefix">android:</span><span class="attribute">fillViewport</span>=<span class="value">"true"</span>
-<span class="lineno">  7 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_verificar_email.xml">../../src/main/res/layout/activity_verificar_email.xml</a>:5</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
-<span class="lineno">  2 </span><span class="tag">&lt;ScrollView</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>
-<span class="lineno">  3 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
-<span class="caretline"><span class="lineno">  5 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  6 </span>    <span class="prefix">android:</span><span class="attribute">fillViewport</span>=<span class="value">"true"</span>
-<span class="lineno">  7 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
+<span class="location"><a href="../../src/main/res/layout/remote_config_demo.xml">../../src/main/res/layout/remote_config_demo.xml</a>:6</span>: <span class="message">Possible overdraw: Root element paints background <code>@android:color/white</code> with a theme that also paints a background (inferred theme is <code>@style/Theme.AuthFirebase</code>)</span><br /><pre class="errorlines">
+<span class="lineno">  3 </span>    <span class="prefix">xmlns:</span><span class="attribute">app</span>=<span class="value">"http://schemas.android.com/apk/res-auto"</span>
+<span class="lineno">  4 </span>    <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno">  5 </span>    <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"match_parent"</span>
+<span class="caretline"><span class="lineno">  6 </span>    <span class="warning"><span class="prefix">android:</span><span class="attribute">background</span>=<span class="value">"@android:color/white"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  7 </span>    <span class="prefix">android:</span><span class="attribute">fillViewport</span>=<span class="value">"true"</span>
+<span class="lineno">  8 </span>    <span class="prefix">android:</span><span class="attribute">fitsSystemWindows</span>=<span class="value">"true"</span>>
 </pre>
 
 </div>
@@ -414,13 +390,31 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:8</span>: <span class="message">The resource <code>R.color.success_green</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  5 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"screen_background"</span>>#F4F7FB<span class="tag">&lt;/color></span>
+<span class="lineno">  6 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"text_primary"</span>>#1F2937<span class="tag">&lt;/color></span>
+<span class="lineno">  7 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"text_secondary"</span>>#607086<span class="tag">&lt;/color></span>
+<span class="caretline"><span class="lineno">  8 </span>    <span class="tag">&lt;color</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"success_green"</span></span>>#18794E<span class="tag">&lt;/color></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  9 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"error_red"</span>>#B3261E<span class="tag">&lt;/color></span>
+<span class="lineno"> 10 </span><span class="tag">&lt;/resources></span>
+</pre>
+
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:9</span>: <span class="message">The resource <code>R.color.error_red</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  6 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"text_primary"</span>>#1F2937<span class="tag">&lt;/color></span>
+<span class="lineno">  7 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"text_secondary"</span>>#607086<span class="tag">&lt;/color></span>
+<span class="lineno">  8 </span>    <span class="tag">&lt;color</span><span class="attribute"> name</span>=<span class="value">"success_green"</span>>#18794E<span class="tag">&lt;/color></span>
+<span class="caretline"><span class="lineno">  9 </span>    <span class="tag">&lt;color</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"error_red"</span></span>>#B3261E<span class="tag">&lt;/color></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 10 </span><span class="tag">&lt;/resources></span>
+<span class="lineno"> 11 </span>
+</pre>
+
 <span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:3</span>: <span class="message">The resource <code>R.string.app_name</code> appears to be unused</span><br /><pre class="errorlines">
 <span class="lineno"> 1 </span><span class="prologue">&lt;?xml version="1.0" encoding="utf-8"?></span>
 <span class="lineno"> 2 </span><span class="tag">&lt;resources></span>
-<span class="caretline"><span class="lineno"> 3 </span>    <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"app_name"</span></span>>Firebase Auth Lab<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 4 </span><span class="tag">&lt;/resources></span>
-<span class="lineno"> 5 </span>
-</pre>
+<span class="caretline"><span class="lineno"> 3 </span>    <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"app_name"</span></span>>Firebase Lab<span class="tag">&lt;/string></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 4 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"rc_default_title"</span>>Bem-vindo ao Remote Config<span class="tag">&lt;/string></span>
+<span class="lineno"> 5 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"rc_default_message"</span>>Esta mensagem está salva no aplicativo. Publique novos valores no Firebase para alterá-la.<span class="tag">&lt;/string></span>
+<span class="lineno"> 6 </span><span class="tag">&lt;/resources></span></pre>
 
 </div>
 <div class="metadata"><div class="explanation" id="explanationUnusedResources" style="display: none;">
@@ -490,7 +484,7 @@ Dismiss</button>            </div>
 <span class="lineno">  5 </span>
 <span class="caretline"><span class="lineno">  6 </span>    <span class="tag">&lt;</span><span class="warning"><span class="tag">application</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="attribute">
 </span><span class="lineno">  7 </span><span class="attribute">        </span><span class="prefix">android:</span><span class="attribute">allowBackup</span>=<span class="value">"true"</span>
-<span class="lineno">  8 </span>        <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"Firebase Auth Lab"</span>
+<span class="lineno">  8 </span>        <span class="prefix">android:</span><span class="attribute">label</span>=<span class="value">"Firebase Lab"</span>
 <span class="lineno">  9 </span>        <span class="prefix">android:</span><span class="attribute">supportsRtl</span>=<span class="value">"true"</span></pre>
 
 </div>
@@ -525,103 +519,6 @@ Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id
 Dismiss</button>            </div>
             </div>
           </section>
-<a name="Usability"></a>
-<a name="Autofill"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="AutofillCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Use Autofill</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:40</span>: <span class="message">Missing <code>autofillHints</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 38 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-<span class="lineno"> 39 </span>
-<span class="caretline"><span class="lineno"> 40 </span>        <span class="tag">&lt;</span><span class="warning"><span class="tag">EditText</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="attribute">
-</span><span class="lineno"> 41 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/editEmail"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:49</span>: <span class="message">Missing <code>autofillHints</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno"> 46 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textEmailAddress"</span>
-<span class="lineno"> 47 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-<span class="lineno"> 48 </span>
-<span class="caretline"><span class="lineno"> 49 </span>        <span class="tag">&lt;</span><span class="warning"><span class="tag">EditText</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="attribute">
-</span><span class="lineno"> 50 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/editSenha"</span>
-<span class="lineno"> 51 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 52 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:58</span>: <span class="message">Missing <code>autofillHints</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno"> 55 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textPassword"</span>
-<span class="lineno"> 56 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-<span class="lineno"> 57 </span>
-<span class="caretline"><span class="lineno"> 58 </span>        <span class="tag">&lt;</span><span class="warning"><span class="tag">EditText</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="attribute">
-</span><span class="lineno"> 59 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/editConfirmarSenha"</span>
-<span class="lineno"> 60 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 61 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:39</span>: <span class="message">Missing <code>autofillHints</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-<span class="lineno"> 38 </span>
-<span class="caretline"><span class="lineno"> 39 </span>        <span class="tag">&lt;</span><span class="warning"><span class="tag">EditText</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="attribute">
-</span><span class="lineno"> 40 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/editEmail"</span>
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:48</span>: <span class="message">Missing <code>autofillHints</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno"> 45 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textEmailAddress"</span>
-<span class="lineno"> 46 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-<span class="lineno"> 47 </span>
-<span class="caretline"><span class="lineno"> 48 </span>        <span class="tag">&lt;</span><span class="warning"><span class="tag">EditText</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="attribute">
-</span><span class="lineno"> 49 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/editSenha"</span>
-<span class="lineno"> 50 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 51 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:39</span>: <span class="message">Missing <code>autofillHints</code> attribute</span><br /><pre class="errorlines">
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-<span class="lineno"> 38 </span>
-<span class="caretline"><span class="lineno"> 39 </span>        <span class="tag">&lt;</span><span class="warning"><span class="tag">EditText</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="attribute">
-</span><span class="lineno"> 40 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/editEmail"</span>
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span></pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationAutofill" style="display: none;">
-Specify an <code>autofillHints</code> attribute when targeting SDK version 26 or higher or explicitly specify that the view is not important for autofill. Your app can help an autofill service classify the data correctly by providing the meaning of each view that could be autofillable, such as views representing usernames, passwords, credit card fields, email addresses, etc.<br/>
-<br/>
-The hints can have any value, but it is recommended to use predefined values like 'username' for a username or 'creditCardNumber' for a credit card number. For a list of all predefined autofill hint constants, see the <code>AUTOFILL_HINT_</code> constants in the <code>View</code> reference at <a href="https://developer.android.com/reference/android/view/View.html">https://developer.android.com/reference/android/view/View.html</a>.<br/>
-<br/>
-You can mark a view unimportant for autofill by specifying an <code>importantForAutofill</code> attribute on that view or a parent view. See <a href="https://developer.android.com/reference/android/view/View.html#setImportantForAutofill(int)">https://developer.android.com/reference/android/view/View.html#setImportantForAutofill(int)</a>.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/guide/topics/text/autofill.html">https://developer.android.com/guide/topics/text/autofill.html</a>
-</div>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
-To suppress this error, use the issue id "Autofill" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Autofill</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Usability</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 3/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationAutofillLink" onclick="reveal('explanationAutofill');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="AutofillCardLink" onclick="hideid('AutofillCard');">
-Dismiss</button>            </div>
-            </div>
-          </section>
 <a name="Productivity"></a>
 <a name="UseTomlInstead"></a>
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="UseTomlInsteadCard" style="display: block;">
@@ -632,24 +529,53 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:43</span>: <span class="message">Use version catalog instead</span><br /><pre class="errorlines">
-<span class="lineno"> 40 </span>    implementation(libs.constraintlayout)
-<span class="lineno"> 41 </span>    implementation(libs.material)
-<span class="lineno"> 42 </span>
-<span class="caretline"><span class="lineno"> 43 </span>    implementation(platform(<span class="warning">"com.google.firebase:firebase-bom:34.19.0"</span>))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 44 </span>    implementation("com.google.firebase:firebase-auth")
-<span class="lineno"> 45 </span>
-<span class="lineno"> 46 </span>    testImplementation(libs.junit)
+<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:47</span>: <span class="message">Use version catalog instead</span><br /><pre class="errorlines">
+<span class="lineno"> 44 </span>    implementation(libs.constraintlayout)
+<span class="lineno"> 45 </span>    implementation(libs.material)
+<span class="lineno"> 46 </span>
+<span class="caretline"><span class="lineno"> 47 </span>    implementation(platform(<span class="warning">"com.google.firebase:firebase-bom:34.19.0"</span>))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 48 </span>    implementation("com.google.firebase:firebase-auth")
+<span class="lineno"> 49 </span>    implementation("com.google.firebase:firebase-functions")
+<span class="lineno"> 50 </span>    implementation("com.google.firebase:firebase-firestore")
 </pre>
 
-<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:44</span>: <span class="message">Use version catalog instead</span><br /><pre class="errorlines">
-<span class="lineno"> 41 </span>    implementation(libs.material)
-<span class="lineno"> 42 </span>
-<span class="lineno"> 43 </span>    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
-<span class="caretline"><span class="lineno"> 44 </span>    implementation(<span class="warning">"com.google.firebase:firebase-auth"</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 45 </span>
-<span class="lineno"> 46 </span>    testImplementation(libs.junit)
-<span class="lineno"> 47 </span>    androidTestImplementation(libs.espresso.core)
+<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:48</span>: <span class="message">Use version catalog instead</span><br /><pre class="errorlines">
+<span class="lineno"> 45 </span>    implementation(libs.material)
+<span class="lineno"> 46 </span>
+<span class="lineno"> 47 </span>    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
+<span class="caretline"><span class="lineno"> 48 </span>    implementation(<span class="warning">"com.google.firebase:firebase-auth"</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 49 </span>    implementation("com.google.firebase:firebase-functions")
+<span class="lineno"> 50 </span>    implementation("com.google.firebase:firebase-firestore")
+<span class="lineno"> 51 </span>    implementation("com.google.firebase:firebase-config")
+</pre>
+
+<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:49</span>: <span class="message">Use version catalog instead</span><br /><pre class="errorlines">
+<span class="lineno"> 46 </span>
+<span class="lineno"> 47 </span>    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
+<span class="lineno"> 48 </span>    implementation("com.google.firebase:firebase-auth")
+<span class="caretline"><span class="lineno"> 49 </span>    implementation(<span class="warning">"com.google.firebase:firebase-functions"</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 50 </span>    implementation("com.google.firebase:firebase-firestore")
+<span class="lineno"> 51 </span>    implementation("com.google.firebase:firebase-config")
+</pre>
+
+<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:50</span>: <span class="message">Use version catalog instead</span><br /><pre class="errorlines">
+<span class="lineno"> 47 </span>    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
+<span class="lineno"> 48 </span>    implementation("com.google.firebase:firebase-auth")
+<span class="lineno"> 49 </span>    implementation("com.google.firebase:firebase-functions")
+<span class="caretline"><span class="lineno"> 50 </span>    implementation(<span class="warning">"com.google.firebase:firebase-firestore"</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 51 </span>    implementation("com.google.firebase:firebase-config")
+<span class="lineno"> 52 </span>
+<span class="lineno"> 53 </span>    testImplementation(libs.junit)
+</pre>
+
+<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:51</span>: <span class="message">Use version catalog instead</span><br /><pre class="errorlines">
+<span class="lineno"> 48 </span>    implementation("com.google.firebase:firebase-auth")
+<span class="lineno"> 49 </span>    implementation("com.google.firebase:firebase-functions")
+<span class="lineno"> 50 </span>    implementation("com.google.firebase:firebase-firestore")
+<span class="caretline"><span class="lineno"> 51 </span>    implementation(<span class="warning">"com.google.firebase:firebase-config"</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 52 </span>
+<span class="lineno"> 53 </span>    testImplementation(libs.junit)
+<span class="lineno"> 54 </span>    androidTestImplementation(libs.espresso.core)
 </pre>
 
 </div>
@@ -689,133 +615,36 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:66</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 63 </span>        FirebaseUser user = auth.getCurrentUser();
-<span class="lineno"> 64 </span>
-<span class="lineno"> 65 </span>        <span class="keyword">if</span> (user == <span class="keyword">null</span>) {
-<span class="caretline"><span class="lineno"> 66 </span>            textStatus.setText(<span class="warning"><span class="string">"Status: desconectado"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 67 </span>            textStatus.setTextColor(getColor(R.color.error_red));
-<span class="lineno"> 68 </span>            textEmail.setText(<span class="string">"E-mail: —"</span>);
-<span class="lineno"> 69 </span>            textUid.setText(<span class="string">"UID: —"</span>);
+<span class="location"><a href="../../src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java">../../src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java</a>:53</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
+<span class="lineno">  50 </span>          remoteConfig.setDefaultsAsync(R.xml.remote_config_defaults))
+<span class="lineno">  51 </span>  .addOnCompleteListener(<span class="keyword">this</span>, task -> {
+<span class="lineno">  52 </span>      <span class="keyword">if</span> (!task.isSuccessful()) {
+<span class="caretline"><span class="lineno">  53 </span>          origem.setText(<span class="warning"><span class="string">"Não foi possível preparar o Remote Config. Os valores locais continuam visíveis."</span></span>);</span>
+<span class="lineno">  54 </span>          Toast.makeText(<span class="keyword">this</span>, <span class="string">"Falha ao iniciar Remote Config."</span>, Toast.LENGTH_LONG).show();
+<span class="lineno">  55 </span>          <span class="keyword">return</span>;
+<span class="lineno">  56 </span>      }
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:68</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 65 </span>        <span class="keyword">if</span> (user == <span class="keyword">null</span>) {
-<span class="lineno"> 66 </span>            textStatus.setText(<span class="string">"Status: desconectado"</span>);
-<span class="lineno"> 67 </span>            textStatus.setTextColor(getColor(R.color.error_red));
-<span class="caretline"><span class="lineno"> 68 </span>            textEmail.setText(<span class="warning"><span class="string">"E-mail: —"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 69 </span>            textUid.setText(<span class="string">"UID: —"</span>);
-<span class="lineno"> 70 </span>            <span class="keyword">return</span>;
-<span class="lineno"> 71 </span>        }
+<span class="location"><a href="../../src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java">../../src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java</a>:64</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
+<span class="lineno">  61 </span>
+<span class="lineno">  62 </span>    <span class="keyword">private</span> <span class="keyword">void</span> buscarConfiguracoes() {
+<span class="lineno">  63 </span>        buscar.setEnabled(<span class="keyword">false</span>);
+<span class="caretline"><span class="lineno">  64 </span>        origem.setText(<span class="warning"><span class="string">"Buscando configurações no Firebase..."</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  65 </span>
+<span class="lineno">  66 </span>        remoteConfig.fetchAndActivate().addOnCompleteListener(<span class="keyword">this</span>, task -> {
+<span class="lineno">  67 </span>            buscar.setEnabled(<span class="keyword">true</span>);
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:69</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 66 </span>            textStatus.setText(<span class="string">"Status: desconectado"</span>);
-<span class="lineno"> 67 </span>            textStatus.setTextColor(getColor(R.color.error_red));
-<span class="lineno"> 68 </span>            textEmail.setText(<span class="string">"E-mail: —"</span>);
-<span class="caretline"><span class="lineno"> 69 </span>            textUid.setText(<span class="warning"><span class="string">"UID: —"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 70 </span>            <span class="keyword">return</span>;
-<span class="lineno"> 71 </span>        }
+<span class="location"><a href="../../src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java">../../src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java</a>:69</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
+<span class="lineno">  66 </span>        remoteConfig.fetchAndActivate().addOnCompleteListener(<span class="keyword">this</span>, task -> {
+<span class="lineno">  67 </span>            buscar.setEnabled(<span class="keyword">true</span>);
+<span class="lineno">  68 </span>            <span class="keyword">if</span> (!task.isSuccessful()) {
+<span class="caretline"><span class="lineno">  69 </span>                origem.setText(<span class="warning"><span class="string">"Falha na busca. Os valores atuais continuam visíveis."</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  70 </span>                Toast.makeText(<span class="keyword">this</span>, <span class="string">"Não foi possível buscar: "</span>
+<span class="lineno">  71 </span>                        + (task.getException() == <span class="keyword">null</span> ? <span class="string">"verifique a conexão"</span>
+<span class="lineno">  72 </span>                        : task.getException().getMessage()), Toast.LENGTH_LONG).show();
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:73</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 70 </span>            <span class="keyword">return</span>;
-<span class="lineno"> 71 </span>        }
-<span class="lineno"> 72 </span>
-<span class="caretline"><span class="lineno"> 73 </span>        textStatus.setText(<span class="warning"><span class="string">"Status: conectado"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 74 </span>        textStatus.setTextColor(getColor(R.color.success_green));
-<span class="lineno"> 75 </span>        textEmail.setText(<span class="string">"E-mail: "</span> + user.getEmail());
-<span class="lineno"> 76 </span>        textUid.setText(<span class="string">"UID: "</span> + user.getUid());
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:75</span>: <span class="message">Do not concatenate text displayed with <code>setText</code>. Use resource string with placeholders.</span><br /><pre class="errorlines">
-<span class="lineno"> 72 </span>
-<span class="lineno"> 73 </span>        textStatus.setText(<span class="string">"Status: conectado"</span>);
-<span class="lineno"> 74 </span>        textStatus.setTextColor(getColor(R.color.success_green));
-<span class="caretline"><span class="lineno"> 75 </span>        textEmail.setText(<span class="warning"><span class="string">"E-mail: "</span> + user.getEmail()</span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 76 </span>        textUid.setText(<span class="string">"UID: "</span> + user.getUid());
-<span class="lineno"> 77 </span>    }
-<span class="lineno"> 78 </span>}
-</pre>
-
-<button class="mdl-button mdl-js-button mdl-button--primary" id="SetTextI18nDivLink" onclick="reveal('SetTextI18nDiv');" />+ 8 More Occurrences...</button>
-<div id="SetTextI18nDiv" style="display: none">
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:75</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 72 </span>
-<span class="lineno"> 73 </span>        textStatus.setText(<span class="string">"Status: conectado"</span>);
-<span class="lineno"> 74 </span>        textStatus.setTextColor(getColor(R.color.success_green));
-<span class="caretline"><span class="lineno"> 75 </span>        textEmail.setText(<span class="warning"><span class="string">"E-mail: "</span></span> + user.getEmail());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 76 </span>        textUid.setText(<span class="string">"UID: "</span> + user.getUid());
-<span class="lineno"> 77 </span>    }
-<span class="lineno"> 78 </span>}
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:76</span>: <span class="message">Do not concatenate text displayed with <code>setText</code>. Use resource string with placeholders.</span><br /><pre class="errorlines">
-<span class="lineno"> 73 </span>        textStatus.setText(<span class="string">"Status: conectado"</span>);
-<span class="lineno"> 74 </span>        textStatus.setTextColor(getColor(R.color.success_green));
-<span class="lineno"> 75 </span>        textEmail.setText(<span class="string">"E-mail: "</span> + user.getEmail());
-<span class="caretline"><span class="lineno"> 76 </span>        textUid.setText(<span class="warning"><span class="string">"UID: "</span> + user.getUid()</span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 77 </span>    }
-<span class="lineno"> 78 </span>}
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/MainActivity.java">../../src/main/java/com/example/authfirebase/MainActivity.java</a>:76</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 73 </span>        textStatus.setText(<span class="string">"Status: conectado"</span>);
-<span class="lineno"> 74 </span>        textStatus.setTextColor(getColor(R.color.success_green));
-<span class="lineno"> 75 </span>        textEmail.setText(<span class="string">"E-mail: "</span> + user.getEmail());
-<span class="caretline"><span class="lineno"> 76 </span>        textUid.setText(<span class="warning"><span class="string">"UID: "</span></span> + user.getUid());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 77 </span>    }
-<span class="lineno"> 78 </span>}
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/TokenActivity.java">../../src/main/java/com/example/authfirebase/TokenActivity.java</a>:38</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 35 </span>            <span class="keyword">return</span>;
-<span class="lineno"> 36 </span>        }
-<span class="lineno"> 37 </span>
-<span class="caretline"><span class="lineno"> 38 </span>        textResultado.setText(<span class="warning"><span class="string">"Gerando um token atualizado..."</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 39 </span>
-<span class="lineno"> 40 </span>        user.getIdToken(<span class="keyword">true</span>).addOnCompleteListener(task -> {
-<span class="lineno"> 41 </span>            <span class="keyword">if</span> (!task.isSuccessful() || task.getResult() == <span class="keyword">null</span>) {
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java">../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java</a>:42</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 39 </span>      <span class="keyword">return</span>;
-<span class="lineno"> 40 </span>  }
-<span class="lineno"> 41 </span>
-<span class="caretline"><span class="lineno"> 42 </span>  textResultado.setText(<span class="warning"><span class="string">"Enviando e-mail de verificação..."</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 43 </span>  user.sendEmailVerification().addOnCompleteListener(task -> {
-<span class="lineno"> 44 </span>      <span class="keyword">if</span> (task.isSuccessful()) {
-<span class="lineno"> 45 </span>          mostrarResultado(<span class="string">"E-mail de verificação enviado para "</span> + user.getEmail(), <span class="keyword">true</span>);
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java">../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java</a>:55</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 52 </span>    <span class="keyword">private</span> <span class="keyword">void</span> exibirUsuario() {
-<span class="lineno"> 53 </span>        FirebaseUser user = auth.getCurrentUser();
-<span class="lineno"> 54 </span>        <span class="keyword">if</span> (user == <span class="keyword">null</span>) {
-<span class="caretline"><span class="lineno"> 55 </span>            textUsuario.setText(<span class="warning"><span class="string">"Usuário atual: nenhum"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 56 </span>            <span class="keyword">return</span>;
-<span class="lineno"> 57 </span>        }
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java">../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java</a>:59</span>: <span class="message">Do not concatenate text displayed with <code>setText</code>. Use resource string with placeholders.</span><br /><pre class="errorlines">
-<span class="lineno"> 56 </span>            <span class="keyword">return</span>;
-<span class="lineno"> 57 </span>        }
-<span class="lineno"> 58 </span>
-<span class="caretline"><span class="lineno"> 59 </span>        textUsuario.setText(<span class="warning"><span class="string">"E-mail: "</span> + user.getEmail()</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 60 </span>                + <span class="string">"\nVerificado: "</span> + (user.isEmailVerified() ? <span class="string">"sim"</span> : <span class="string">"não"</span>));
-<span class="lineno"> 61 </span>    }
-</pre>
-
-<span class="location"><a href="../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java">../../src/main/java/com/example/authfirebase/VerificarEmailActivity.java</a>:59</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 56 </span>            <span class="keyword">return</span>;
-<span class="lineno"> 57 </span>        }
-<span class="lineno"> 58 </span>
-<span class="caretline"><span class="lineno"> 59 </span>        textUsuario.setText(<span class="warning"><span class="string">"E-mail: "</span></span> + user.getEmail()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 60 </span>                + <span class="string">"\nVerificado: "</span> + (user.isEmailVerified() ? <span class="string">"sim"</span> : <span class="string">"não"</span>));
-<span class="lineno"> 61 </span>    }
-</pre>
-
-</div>
 </div>
 <div class="metadata"><div class="explanation" id="explanationSetTextI18n" style="display: none;">
 When calling <code>TextView#setText</code><br/>
@@ -855,7 +684,7 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:20</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/res/layout/activity_cloud_function.xml">../../src/main/res/layout/activity_cloud_function.xml</a>:20</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
 <span class="lineno"> 17 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/btnVoltar"</span>
 <span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
 <span class="lineno"> 19 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
@@ -864,389 +693,173 @@ Dismiss</button>            </div>
 <span class="lineno"> 22 </span>
 <span class="lineno"> 23 </span>        <span class="tag">&lt;TextView</span></pre>
 
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:27</span>: <span class="message">Hardcoded string "Cadastrar usuário", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/res/layout/activity_cloud_function.xml">../../src/main/res/layout/activity_cloud_function.xml</a>:26</span>: <span class="message">Hardcoded string "Cloud Functions", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 23 </span>        <span class="tag">&lt;TextView</span><span class="attribute">
+</span><span class="lineno"> 24 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Cloud Functions"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
+<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"26sp"</span>
+<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_cloud_function.xml">../../src/main/res/layout/activity_cloud_function.xml</a>:35</span>: <span class="message">Hardcoded string "Execute uma função no Firebase e veja a resposta em uma notificação.", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 32 </span><span class="attribute">   </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 33 </span>   <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 34 </span>   <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"12dp"</span>
+<span class="caretline"><span class="lineno"> 35 </span>   <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Execute uma função no Firebase e veja a resposta em uma notificação."</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 36 </span>   <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
+<span class="lineno"> 37 </span>   <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_cloud_function.xml">../../src/main/res/layout/activity_cloud_function.xml</a>:44</span>: <span class="message">Hardcoded string "Executar função", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
+<span class="caretline"><span class="lineno"> 44 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Executar função"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 45 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
+<span class="lineno"> 46 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
+<span class="lineno"> 47 </span>    <span class="tag">&lt;/LinearLayout></span></pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:19</span>: <span class="message">Hardcoded string "Firebase Lab", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 16 </span>        <span class="tag">&lt;TextView</span><span class="attribute">
+</span><span class="lineno"> 17 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="caretline"><span class="lineno"> 19 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Firebase Lab"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
+<span class="lineno"> 21 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"26sp"</span>
+<span class="lineno"> 22 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
+</pre>
+
+<button class="mdl-button mdl-js-button mdl-button--primary" id="HardcodedTextDivLink" onclick="reveal('HardcodedTextDiv');" />+ 14 More Occurrences...</button>
+<div id="HardcodedTextDiv" style="display: none">
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:28</span>: <span class="message">Hardcoded string "Escolha uma funcionalidade para explorar:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 25 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 26 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"12dp"</span>
+<span class="caretline"><span class="lineno"> 28 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Escolha uma funcionalidade para explorar:"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
+<span class="lineno"> 30 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:37</span>: <span class="message">Hardcoded string "Cloud Functions", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 34 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 35 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
+<span class="caretline"><span class="lineno"> 37 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Cloud Functions"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 38 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
+<span class="lineno"> 39 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:46</span>: <span class="message">Hardcoded string "Remote Config", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 44 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 45 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
+<span class="caretline"><span class="lineno"> 46 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Remote Config"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 47 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
+<span class="lineno"> 48 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:55</span>: <span class="message">Hardcoded string "Tarefas (Firestore)", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 52 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 53 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 54 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
+<span class="caretline"><span class="lineno"> 55 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Tarefas (Firestore)"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 56 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
+<span class="lineno"> 57 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
+<span class="lineno"> 58 </span>    <span class="tag">&lt;/LinearLayout></span></pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_tarefas.xml">../../src/main/res/layout/activity_tarefas.xml</a>:19</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 16 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/btnVoltar"</span>
+<span class="lineno"> 17 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="caretline"><span class="lineno"> 19 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Voltar"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
+<span class="lineno"> 21 </span>
+<span class="lineno"> 22 </span>        <span class="tag">&lt;TextView</span></pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_tarefas.xml">../../src/main/res/layout/activity_tarefas.xml</a>:26</span>: <span class="message">Hardcoded string "Minhas tarefas", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 23 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
+<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Minhas tarefas"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
+<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"24sp"</span>
+<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_tarefas.xml">../../src/main/res/layout/activity_tarefas.xml</a>:35</span>: <span class="message">Hardcoded string "Coleção: usuarios/{uid}/tarefas", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 32 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 33 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 34 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"6dp"</span>
+<span class="caretline"><span class="lineno"> 35 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Coleção: usuarios/{uid}/tarefas"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
+<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_tarefas.xml">../../src/main/res/layout/activity_tarefas.xml</a>:51</span>: <span class="message">Hardcoded string "Nova tarefa", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 48 </span>                <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"0dp"</span>
+<span class="lineno"> 49 </span>                <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 50 </span>                <span class="prefix">android:</span><span class="attribute">layout_weight</span>=<span class="value">"1"</span>
+<span class="caretline"><span class="lineno"> 51 </span>                <span class="warning"><span class="prefix">android:</span><span class="attribute">hint</span>=<span class="value">"Nova tarefa"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 52 </span>                <span class="prefix">android:</span><span class="attribute">importantForAutofill</span>=<span class="value">"no"</span>
+<span class="lineno"> 53 </span>                <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"text"</span>
+<span class="lineno"> 54 </span>                <span class="prefix">android:</span><span class="attribute">maxLength</span>=<span class="value">"100"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_tarefas.xml">../../src/main/res/layout/activity_tarefas.xml</a>:61</span>: <span class="message">Hardcoded string "Adicionar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 58 </span>                <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 59 </span>                <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 60 </span>                <span class="prefix">android:</span><span class="attribute">layout_marginStart</span>=<span class="value">"8dp"</span>
+<span class="caretline"><span class="lineno"> 61 </span>                <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Adicionar"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 62 </span>                <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
+<span class="lineno"> 63 </span>                <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
+<span class="lineno"> 64 </span>        <span class="tag">&lt;/LinearLayout></span></pre>
+
+<span class="location"><a href="../../src/main/res/layout/activity_tarefas.xml">../../src/main/res/layout/activity_tarefas.xml</a>:70</span>: <span class="message">Hardcoded string "Toque para concluir. Segure para excluir.", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 67 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
+<span class="lineno"> 68 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 69 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"8dp"</span>
+<span class="caretline"><span class="lineno"> 70 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Toque para concluir. Segure para excluir."</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 71 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
+<span class="lineno"> 72 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"12sp"</span> />
+</pre>
+
+<span class="location"><a href="../../src/main/res/layout/remote_config_demo.xml">../../src/main/res/layout/remote_config_demo.xml</a>:20</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 17 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/btnVoltar"</span>
+<span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 19 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="caretline"><span class="lineno"> 20 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Voltar"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 21 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
+<span class="lineno"> 22 </span>
+<span class="lineno"> 23 </span>        <span class="tag">&lt;TextView</span></pre>
+
+<span class="location"><a href="../../src/main/res/layout/remote_config_demo.xml">../../src/main/res/layout/remote_config_demo.xml</a>:27</span>: <span class="message">Hardcoded string "Firebase Remote Config", should use <code>@string</code> resource</span><br /><pre class="errorlines">
 <span class="lineno"> 24 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
 <span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 26 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 27 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Cadastrar usuário"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"24sp"</span>
-<span class="lineno"> 30 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
+<span class="lineno"> 26 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"18dp"</span>
+<span class="caretline"><span class="lineno"> 27 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Firebase Remote Config"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
+<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span> />
 </pre>
 
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:36</span>: <span class="message">Hardcoded string "Método: createUserWithEmailAndPassword()", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 33 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 34 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 35 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"6dp"</span>
-<span class="caretline"><span class="lineno"> 36 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Método: createUserWithEmailAndPassword()"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 38 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:45</span>: <span class="message">Hardcoded string "E-mail", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 44 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
-<span class="caretline"><span class="lineno"> 45 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">hint</span>=<span class="value">"E-mail"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 46 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textEmailAddress"</span>
-<span class="lineno"> 47 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:54</span>: <span class="message">Hardcoded string "Senha", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 51 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 52 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 53 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
-<span class="caretline"><span class="lineno"> 54 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">hint</span>=<span class="value">"Senha"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 55 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textPassword"</span>
-<span class="lineno"> 56 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-</pre>
-
-<button class="mdl-button mdl-js-button mdl-button--primary" id="HardcodedTextDivLink" onclick="reveal('HardcodedTextDiv');" />+ 37 More Occurrences...</button>
-<div id="HardcodedTextDiv" style="display: none">
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:63</span>: <span class="message">Hardcoded string "Confirmar senha", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 60 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 61 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 62 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
-<span class="caretline"><span class="lineno"> 63 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">hint</span>=<span class="value">"Confirmar senha"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 64 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textPassword"</span>
-<span class="lineno"> 65 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:72</span>: <span class="message">Hardcoded string "Executar cadastro", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 69 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 70 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 71 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 72 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Executar cadastro"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 73 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 74 </span>
-<span class="lineno"> 75 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_cadastro.xml">../../src/main/res/layout/activity_cadastro.xml</a>:80</span>: <span class="message">Hardcoded string "Resultado:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 77 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 78 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 79 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 80 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Resultado:"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 81 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 82 </span>            <span class="prefix">android:</span><span class="attribute">textIsSelectable</span>=<span class="value">"true"</span>
-<span class="lineno"> 83 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:19</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 16 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/btnVoltar"</span>
-<span class="lineno"> 17 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 19 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Voltar"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 21 </span>
-<span class="lineno"> 22 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:26</span>: <span class="message">Hardcoded string "Fazer login", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 23 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Fazer login"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"24sp"</span>
-<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:35</span>: <span class="message">Hardcoded string "Método: signInWithEmailAndPassword()", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 32 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 33 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 34 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"6dp"</span>
-<span class="caretline"><span class="lineno"> 35 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Método: signInWithEmailAndPassword()"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:44</span>: <span class="message">Hardcoded string "E-mail", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
-<span class="caretline"><span class="lineno"> 44 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">hint</span>=<span class="value">"E-mail"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 45 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textEmailAddress"</span>
-<span class="lineno"> 46 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:53</span>: <span class="message">Hardcoded string "Senha", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 50 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 51 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 52 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
-<span class="caretline"><span class="lineno"> 53 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">hint</span>=<span class="value">"Senha"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 54 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textPassword"</span>
-<span class="lineno"> 55 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:62</span>: <span class="message">Hardcoded string "Executar login", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/res/layout/remote_config_demo.xml">../../src/main/res/layout/remote_config_demo.xml</a>:62</span>: <span class="message">Hardcoded string "Exibindo valores padrão do aplicativo", should use <code>@string</code> resource</span><br /><pre class="errorlines">
 <span class="lineno"> 59 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
 <span class="lineno"> 60 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 61 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 62 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Executar login"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 63 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 64 </span>
-<span class="lineno"> 65 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_login.xml">../../src/main/res/layout/activity_login.xml</a>:70</span>: <span class="message">Hardcoded string "Resultado:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 67 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 68 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 69 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 70 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Resultado:"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 71 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 72 </span>            <span class="prefix">android:</span><span class="attribute">textIsSelectable</span>=<span class="value">"true"</span>
-<span class="lineno"> 73 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:19</span>: <span class="message">Hardcoded string "Firebase Authentication", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  16 </span>        <span class="tag">&lt;TextView</span><span class="attribute">
-</span><span class="lineno">  17 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  18 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno">  19 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Firebase Authentication"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  20 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno">  21 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"26sp"</span>
-<span class="lineno">  22 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:29</span>: <span class="message">Hardcoded string "Status: desconectado", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  26 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  27 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  28 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno">  29 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Status: desconectado"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  30 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/error_red"</span>
-<span class="lineno">  31 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"16sp"</span>
-<span class="lineno">  32 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:39</span>: <span class="message">Hardcoded string "E-mail: &#8212;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  36 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  37 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  38 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"6dp"</span>
-<span class="caretline"><span class="lineno">  39 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"E-mail: —"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  40 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno">  41 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:48</span>: <span class="message">Hardcoded string "UID: &#8212;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  45 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  46 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  47 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"4dp"</span>
-<span class="caretline"><span class="lineno">  48 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"UID: —"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  49 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno">  50 </span>            <span class="prefix">android:</span><span class="attribute">textIsSelectable</span>=<span class="value">"true"</span>
-<span class="lineno">  51 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"12sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:58</span>: <span class="message">Hardcoded string "Cadastrar usuário", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  55 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  56 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  57 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
-<span class="caretline"><span class="lineno">  58 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Cadastrar usuário"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  59 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
-<span class="lineno">  60 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:67</span>: <span class="message">Hardcoded string "Fazer login", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  64 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  65 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  66 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
-<span class="caretline"><span class="lineno">  67 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Fazer login"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  68 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
-<span class="lineno">  69 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:76</span>: <span class="message">Hardcoded string "Verificar e-mail", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  73 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  74 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  75 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
-<span class="caretline"><span class="lineno">  76 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Verificar e-mail"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  77 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
-<span class="lineno">  78 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:85</span>: <span class="message">Hardcoded string "Recuperar senha", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  82 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  83 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  84 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
-<span class="caretline"><span class="lineno">  85 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Recuperar senha"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  86 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
-<span class="lineno">  87 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:94</span>: <span class="message">Hardcoded string "Gerar token", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno">  91 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno">  92 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno">  93 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"10dp"</span>
-<span class="caretline"><span class="lineno">  94 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Gerar token"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  95 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
-<span class="lineno">  96 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:104</span>: <span class="message">Hardcoded string "Sair da conta", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 101 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 102 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 103 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"24dp"</span>
-<span class="caretline"><span class="lineno"> 104 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Sair da conta"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 105 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
-<span class="lineno"> 106 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:19</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 16 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/btnVoltar"</span>
-<span class="lineno"> 17 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 19 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Voltar"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 21 </span>
-<span class="lineno"> 22 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:26</span>: <span class="message">Hardcoded string "Recuperar senha", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 23 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Recuperar senha"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"24sp"</span>
-<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:35</span>: <span class="message">Hardcoded string "Método: sendPasswordResetEmail()", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 32 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 33 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 34 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"6dp"</span>
-<span class="caretline"><span class="lineno"> 35 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Método: sendPasswordResetEmail()"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:44</span>: <span class="message">Hardcoded string "E-mail", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
-<span class="caretline"><span class="lineno"> 44 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">hint</span>=<span class="value">"E-mail"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 45 </span>            <span class="prefix">android:</span><span class="attribute">inputType</span>=<span class="value">"textEmailAddress"</span>
-<span class="lineno"> 46 </span>            <span class="prefix">android:</span><span class="attribute">maxLines</span>=<span class="value">"1"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:53</span>: <span class="message">Hardcoded string "Enviar recuperação", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 50 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 51 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 52 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 53 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Enviar recuperação"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 54 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 55 </span>
-<span class="lineno"> 56 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_recuperar_senha.xml">../../src/main/res/layout/activity_recuperar_senha.xml</a>:61</span>: <span class="message">Hardcoded string "Resultado:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 58 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 59 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 60 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 61 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Resultado:"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 62 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 63 </span>            <span class="prefix">android:</span><span class="attribute">textIsSelectable</span>=<span class="value">"true"</span>
+<span class="lineno"> 61 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"24dp"</span>
+<span class="caretline"><span class="lineno"> 62 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Exibindo valores padrão do aplicativo"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 63 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
 <span class="lineno"> 64 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
 </pre>
 
-<span class="location"><a href="../../src/main/res/layout/activity_token.xml">../../src/main/res/layout/activity_token.xml</a>:19</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 16 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/btnVoltar"</span>
-<span class="lineno"> 17 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 19 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Voltar"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 21 </span>
-<span class="lineno"> 22 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_token.xml">../../src/main/res/layout/activity_token.xml</a>:26</span>: <span class="message">Hardcoded string "Gerar token`", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 23 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Gerar token`"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"24sp"</span>
-<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_token.xml">../../src/main/res/layout/activity_token.xml</a>:35</span>: <span class="message">Hardcoded string "Método: getIdToken(true)", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 32 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 33 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 34 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"6dp"</span>
-<span class="caretline"><span class="lineno"> 35 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Método: getIdToken(true)"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_token.xml">../../src/main/res/layout/activity_token.xml</a>:44</span>: <span class="message">Hardcoded string "Gerar token atualizado", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
-<span class="caretline"><span class="lineno"> 44 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Gerar token atualizado"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 45 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 46 </span>
-<span class="lineno"> 47 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_token.xml">../../src/main/res/layout/activity_token.xml</a>:53</span>: <span class="message">Hardcoded string "Resultado:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 50 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 51 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="lineno"> 52 </span>            <span class="prefix">android:</span><span class="attribute">fontFamily</span>=<span class="value">"monospace"</span>
-<span class="caretline"><span class="lineno"> 53 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Resultado:"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 54 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 55 </span>            <span class="prefix">android:</span><span class="attribute">textIsSelectable</span>=<span class="value">"true"</span>
-<span class="lineno"> 56 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"11sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_verificar_email.xml">../../src/main/res/layout/activity_verificar_email.xml</a>:19</span>: <span class="message">Hardcoded string "Voltar", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 16 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/btnVoltar"</span>
-<span class="lineno"> 17 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 18 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 19 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Voltar"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 20 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 21 </span>
-<span class="lineno"> 22 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_verificar_email.xml">../../src/main/res/layout/activity_verificar_email.xml</a>:26</span>: <span class="message">Hardcoded string "Verificar e-mail", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 23 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 24 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 25 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 26 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Verificar e-mail"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 27 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno"> 28 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"24sp"</span>
-<span class="lineno"> 29 </span>            <span class="prefix">android:</span><span class="attribute">textStyle</span>=<span class="value">"bold"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_verificar_email.xml">../../src/main/res/layout/activity_verificar_email.xml</a>:35</span>: <span class="message">Hardcoded string "Método: sendEmailVerification()", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 32 </span><span class="attribute">            </span><span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 33 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 34 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"6dp"</span>
-<span class="caretline"><span class="lineno"> 35 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Método: sendEmailVerification()"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 36 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 37 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_verificar_email.xml">../../src/main/res/layout/activity_verificar_email.xml</a>:44</span>: <span class="message">Hardcoded string "Usuário atual: nenhum", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 41 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 42 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 43 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"28dp"</span>
-<span class="caretline"><span class="lineno"> 44 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Usuário atual: nenhum"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 45 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_primary"</span>
-<span class="lineno"> 46 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"15sp"</span> />
-</pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_verificar_email.xml">../../src/main/res/layout/activity_verificar_email.xml</a>:53</span>: <span class="message">Hardcoded string "Enviar verificação", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 50 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 51 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 52 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 53 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Enviar verificação"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 54 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span> />
-<span class="lineno"> 55 </span>
-<span class="lineno"> 56 </span>        <span class="tag">&lt;TextView</span></pre>
-
-<span class="location"><a href="../../src/main/res/layout/activity_verificar_email.xml">../../src/main/res/layout/activity_verificar_email.xml</a>:61</span>: <span class="message">Hardcoded string "Resultado:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 58 </span>            <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"match_parent"</span>
-<span class="lineno"> 59 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 60 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
-<span class="caretline"><span class="lineno"> 61 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Resultado:"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 62 </span>            <span class="prefix">android:</span><span class="attribute">textColor</span>=<span class="value">"@color/text_secondary"</span>
-<span class="lineno"> 63 </span>            <span class="prefix">android:</span><span class="attribute">textIsSelectable</span>=<span class="value">"true"</span>
-<span class="lineno"> 64 </span>            <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"14sp"</span> />
-</pre>
+<span class="location"><a href="../../src/main/res/layout/remote_config_demo.xml">../../src/main/res/layout/remote_config_demo.xml</a>:72</span>: <span class="message">Hardcoded string "Buscar configurações", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 69 </span>            <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 70 </span>            <span class="prefix">android:</span><span class="attribute">layout_marginTop</span>=<span class="value">"20dp"</span>
+<span class="lineno"> 71 </span>            <span class="prefix">android:</span><span class="attribute">enabled</span>=<span class="value">"false"</span>
+<span class="caretline"><span class="lineno"> 72 </span>            <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Buscar configurações"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 73 </span>            <span class="prefix">android:</span><span class="attribute">textAllCaps</span>=<span class="value">"false"</span>
+<span class="lineno"> 74 </span>            <span class="prefix">app:</span><span class="attribute">cornerRadius</span>=<span class="value">"6dp"</span> />
+<span class="lineno"> 75 </span>    <span class="tag">&lt;/LinearLayout></span></pre>
 
 </div>
 </div>

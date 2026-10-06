@@ -28,6 +28,10 @@ android {
         }
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -44,6 +48,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-functions")
     implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-config")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)

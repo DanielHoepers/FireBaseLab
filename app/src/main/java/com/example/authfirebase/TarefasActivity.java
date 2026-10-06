@@ -44,7 +44,7 @@ public class TarefasActivity extends AppCompatActivity {
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user == null) {
-            Toast.makeText(this, "Faça login em Autenticação antes de abrir as tarefas.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Tarefas requer uma sessão Firebase já existente neste aparelho.", Toast.LENGTH_LONG).show();
             finish();
             return;
         }

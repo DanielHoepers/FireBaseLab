@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>titulo_app</key>
+        <value>Bem-vindo ao Remote Config</value>
+    </entry>
+    <entry>
+        <key>mensagem_app</key>
+        <value>Esta mensagem está salva no aplicativo. Publique novos valores no Firebase para alterá-la.</value>
+    </entry>
+    <entry>
+        <key>cor_destaque</key>
+        <value>#1565C0</value>
+    </entry>
+</defaultsMap>

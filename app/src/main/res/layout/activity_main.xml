@@ -30,20 +30,20 @@
             android:textSize="16sp" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnAutenticacao"
+            android:id="@+id/btnFuncaoNuvem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:text="Autenticação"
+            android:text="Cloud Functions"
             android:textAllCaps="false"
             app:cornerRadius="6dp" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnFuncaoNuvem"
+            android:id="@+id/btnRemoteConfig"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Função em nuvem"
+            android:text="Remote Config"
             android:textAllCaps="false"
             app:cornerRadius="6dp" />
 

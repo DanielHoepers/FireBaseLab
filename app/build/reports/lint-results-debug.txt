@@ -12,22 +12,16 @@ agp = "9.3.2"
    with an older version. However, you may simply not be aware that a more
    recent version is available, and that is what this lint check helps find.
 
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:6: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
-    android:background="@android:color/white"
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:5: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cloud_function.xml:6: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
     android:background="@android:color/white"
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:6: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
     android:background="@android:color/white"
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:5: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_tarefas.xml:6: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
     android:background="@android:color/white"
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_token.xml:5: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
-    android:background="@android:color/white"
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_verificar_email.xml:5: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/remote_config_demo.xml:6: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase) [Overdraw]
     android:background="@android:color/white"
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -52,8 +46,14 @@ agp = "9.3.2"
    performance if you pre-mix the background with your drawable and use that
    resulting image or color as a custom theme background instead.
 
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/values/colors.xml:8: Warning: The resource R.color.success_green appears to be unused [UnusedResources]
+    <color name="success_green">#18794E</color>
+           ~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/values/colors.xml:9: Warning: The resource R.color.error_red appears to be unused [UnusedResources]
+    <color name="error_red">#B3261E</color>
+           ~~~~~~~~~~~~~~~~
 /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/values/strings.xml:3: Warning: The resource R.string.app_name appears to be unused [UnusedResources]
-    <string name="app_name">Firebase Auth Lab</string>
+    <string name="app_name">Firebase Lab</string>
             ~~~~~~~~~~~~~~~
 
    Explanation for issues of type "UnusedResources":
@@ -99,51 +99,21 @@ agp = "9.3.2"
 
    https://developer.android.com/studio/publish/preparing#publishing-configure
 
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:40: Warning: Missing autofillHints attribute [Autofill]
-        <EditText
-         ~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:49: Warning: Missing autofillHints attribute [Autofill]
-        <EditText
-         ~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:58: Warning: Missing autofillHints attribute [Autofill]
-        <EditText
-         ~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:39: Warning: Missing autofillHints attribute [Autofill]
-        <EditText
-         ~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:48: Warning: Missing autofillHints attribute [Autofill]
-        <EditText
-         ~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:39: Warning: Missing autofillHints attribute [Autofill]
-        <EditText
-         ~~~~~~~~
-
-   Explanation for issues of type "Autofill":
-   Specify an autofillHints attribute when targeting SDK version 26 or higher
-   or explicitly specify that the view is not important for autofill. Your app
-   can help an autofill service classify the data correctly by providing the
-   meaning of each view that could be autofillable, such as views representing
-   usernames, passwords, credit card fields, email addresses, etc.
-
-   The hints can have any value, but it is recommended to use predefined
-   values like 'username' for a username or 'creditCardNumber' for a credit
-   card number. For a list of all predefined autofill hint constants, see the
-   AUTOFILL_HINT_ constants in the View reference at
-   https://developer.android.com/reference/android/view/View.html.
-
-   You can mark a view unimportant for autofill by specifying an
-   importantForAutofill attribute on that view or a parent view. See
-   https://developer.android.com/reference/android/view/View.html#setImportant
-   ForAutofill(int).
-
-   https://developer.android.com/guide/topics/text/autofill.html
-
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/build.gradle.kts:43: Warning: Use version catalog instead [UseTomlInstead]
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/build.gradle.kts:47: Warning: Use version catalog instead [UseTomlInstead]
     implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/build.gradle.kts:44: Warning: Use version catalog instead [UseTomlInstead]
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/build.gradle.kts:48: Warning: Use version catalog instead [UseTomlInstead]
     implementation("com.google.firebase:firebase-auth")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/build.gradle.kts:49: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.firebase:firebase-functions")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/build.gradle.kts:50: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.firebase:firebase-firestore")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/build.gradle.kts:51: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.firebase:firebase-config")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "UseTomlInstead":
    If your project is using a libs.versions.toml file, you should place all
@@ -151,45 +121,15 @@ agp = "9.3.2"
    declarations outside of the TOML file and suggests moving them (and in the
    IDE, provides a quickfix to performing the operation automatically).
 
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:66: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-            textStatus.setText("Status: desconectado");
-                               ~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:68: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-            textEmail.setText("E-mail: —");
-                              ~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:69: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-            textUid.setText("UID: —");
-                            ~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:73: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-        textStatus.setText("Status: conectado");
-                           ~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:75: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
-        textEmail.setText("E-mail: " + user.getEmail());
-                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:75: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-        textEmail.setText("E-mail: " + user.getEmail());
-                          ~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:76: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
-        textUid.setText("UID: " + user.getUid());
-                        ~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/MainActivity.java:76: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-        textUid.setText("UID: " + user.getUid());
-                        ~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/TokenActivity.java:38: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-        textResultado.setText("Gerando um token atualizado...");
-                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/VerificarEmailActivity.java:42: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-        textResultado.setText("Enviando e-mail de verificação...");
-                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/VerificarEmailActivity.java:55: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-            textUsuario.setText("Usuário atual: nenhum");
-                                ~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/VerificarEmailActivity.java:59: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
-        textUsuario.setText("E-mail: " + user.getEmail()
-                            ^
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/VerificarEmailActivity.java:59: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-        textUsuario.setText("E-mail: " + user.getEmail()
-                            ~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java:53: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        origem.setText("Não foi possível preparar o Remote Config. Os valores locais continuam visíveis.");
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java:64: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        origem.setText("Buscando configurações no Firebase...");
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java:69: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                origem.setText("Falha na busca. Os valores atuais continuam visíveis.");
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "SetTextI18n":
    When calling TextView#setText
@@ -204,132 +144,63 @@ agp = "9.3.2"
 
    https://developer.android.com/guide/topics/resources/localization.html
 
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:20: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cloud_function.xml:20: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
             android:text="Voltar"
             ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:27: Warning: Hardcoded string "Cadastrar usuário", should use @string resource [HardcodedText]
-            android:text="Cadastrar usuário"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:36: Warning: Hardcoded string "Método: createUserWithEmailAndPassword()", should use @string resource [HardcodedText]
-            android:text="Método: createUserWithEmailAndPassword()"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:45: Warning: Hardcoded string "E-mail", should use @string resource [HardcodedText]
-            android:hint="E-mail"
-            ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:54: Warning: Hardcoded string "Senha", should use @string resource [HardcodedText]
-            android:hint="Senha"
-            ~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:63: Warning: Hardcoded string "Confirmar senha", should use @string resource [HardcodedText]
-            android:hint="Confirmar senha"
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cloud_function.xml:26: Warning: Hardcoded string "Cloud Functions", should use @string resource [HardcodedText]
+            android:text="Cloud Functions"
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:72: Warning: Hardcoded string "Executar cadastro", should use @string resource [HardcodedText]
-            android:text="Executar cadastro"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cadastro.xml:80: Warning: Hardcoded string "Resultado:", should use @string resource [HardcodedText]
-            android:text="Resultado:"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:19: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
-            android:text="Voltar"
-            ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:26: Warning: Hardcoded string "Fazer login", should use @string resource [HardcodedText]
-            android:text="Fazer login"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:35: Warning: Hardcoded string "Método: signInWithEmailAndPassword()", should use @string resource [HardcodedText]
-            android:text="Método: signInWithEmailAndPassword()"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:44: Warning: Hardcoded string "E-mail", should use @string resource [HardcodedText]
-            android:hint="E-mail"
-            ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:53: Warning: Hardcoded string "Senha", should use @string resource [HardcodedText]
-            android:hint="Senha"
-            ~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:62: Warning: Hardcoded string "Executar login", should use @string resource [HardcodedText]
-            android:text="Executar login"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_login.xml:70: Warning: Hardcoded string "Resultado:", should use @string resource [HardcodedText]
-            android:text="Resultado:"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:19: Warning: Hardcoded string "Firebase Authentication", should use @string resource [HardcodedText]
-            android:text="Firebase Authentication"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:29: Warning: Hardcoded string "Status: desconectado", should use @string resource [HardcodedText]
-            android:text="Status: desconectado"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:39: Warning: Hardcoded string "E-mail: —", should use @string resource [HardcodedText]
-            android:text="E-mail: —"
-            ~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:48: Warning: Hardcoded string "UID: —", should use @string resource [HardcodedText]
-            android:text="UID: —"
-            ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:58: Warning: Hardcoded string "Cadastrar usuário", should use @string resource [HardcodedText]
-            android:text="Cadastrar usuário"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:67: Warning: Hardcoded string "Fazer login", should use @string resource [HardcodedText]
-            android:text="Fazer login"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:76: Warning: Hardcoded string "Verificar e-mail", should use @string resource [HardcodedText]
-            android:text="Verificar e-mail"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:85: Warning: Hardcoded string "Recuperar senha", should use @string resource [HardcodedText]
-            android:text="Recuperar senha"
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cloud_function.xml:35: Warning: Hardcoded string "Execute uma função no Firebase e veja a resposta em uma notificação.", should use @string resource [HardcodedText]
+            android:text="Execute uma função no Firebase e veja a resposta em uma notificação."
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_cloud_function.xml:44: Warning: Hardcoded string "Executar função", should use @string resource [HardcodedText]
+            android:text="Executar função"
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:94: Warning: Hardcoded string "Gerar token", should use @string resource [HardcodedText]
-            android:text="Gerar token"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:104: Warning: Hardcoded string "Sair da conta", should use @string resource [HardcodedText]
-            android:text="Sair da conta"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:19: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
-            android:text="Voltar"
-            ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:26: Warning: Hardcoded string "Recuperar senha", should use @string resource [HardcodedText]
-            android:text="Recuperar senha"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:35: Warning: Hardcoded string "Método: sendPasswordResetEmail()", should use @string resource [HardcodedText]
-            android:text="Método: sendPasswordResetEmail()"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:44: Warning: Hardcoded string "E-mail", should use @string resource [HardcodedText]
-            android:hint="E-mail"
-            ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:53: Warning: Hardcoded string "Enviar recuperação", should use @string resource [HardcodedText]
-            android:text="Enviar recuperação"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_recuperar_senha.xml:61: Warning: Hardcoded string "Resultado:", should use @string resource [HardcodedText]
-            android:text="Resultado:"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_token.xml:19: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
-            android:text="Voltar"
-            ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_token.xml:26: Warning: Hardcoded string "Gerar token`", should use @string resource [HardcodedText]
-            android:text="Gerar token`"
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:19: Warning: Hardcoded string "Firebase Lab", should use @string resource [HardcodedText]
+            android:text="Firebase Lab"
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_token.xml:35: Warning: Hardcoded string "Método: getIdToken(true)", should use @string resource [HardcodedText]
-            android:text="Método: getIdToken(true)"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_token.xml:44: Warning: Hardcoded string "Gerar token atualizado", should use @string resource [HardcodedText]
-            android:text="Gerar token atualizado"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_token.xml:53: Warning: Hardcoded string "Resultado:", should use @string resource [HardcodedText]
-            android:text="Resultado:"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_verificar_email.xml:19: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:28: Warning: Hardcoded string "Escolha uma funcionalidade para explorar:", should use @string resource [HardcodedText]
+            android:text="Escolha uma funcionalidade para explorar:"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:37: Warning: Hardcoded string "Cloud Functions", should use @string resource [HardcodedText]
+            android:text="Cloud Functions"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:46: Warning: Hardcoded string "Remote Config", should use @string resource [HardcodedText]
+            android:text="Remote Config"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_main.xml:55: Warning: Hardcoded string "Tarefas (Firestore)", should use @string resource [HardcodedText]
+            android:text="Tarefas (Firestore)"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_tarefas.xml:19: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
             android:text="Voltar"
             ~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_verificar_email.xml:26: Warning: Hardcoded string "Verificar e-mail", should use @string resource [HardcodedText]
-            android:text="Verificar e-mail"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_verificar_email.xml:35: Warning: Hardcoded string "Método: sendEmailVerification()", should use @string resource [HardcodedText]
-            android:text="Método: sendEmailVerification()"
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_tarefas.xml:26: Warning: Hardcoded string "Minhas tarefas", should use @string resource [HardcodedText]
+            android:text="Minhas tarefas"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_tarefas.xml:35: Warning: Hardcoded string "Coleção: usuarios/{uid}/tarefas", should use @string resource [HardcodedText]
+            android:text="Coleção: usuarios/{uid}/tarefas"
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_verificar_email.xml:44: Warning: Hardcoded string "Usuário atual: nenhum", should use @string resource [HardcodedText]
-            android:text="Usuário atual: nenhum"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_verificar_email.xml:53: Warning: Hardcoded string "Enviar verificação", should use @string resource [HardcodedText]
-            android:text="Enviar verificação"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_verificar_email.xml:61: Warning: Hardcoded string "Resultado:", should use @string resource [HardcodedText]
-            android:text="Resultado:"
-            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_tarefas.xml:51: Warning: Hardcoded string "Nova tarefa", should use @string resource [HardcodedText]
+                android:hint="Nova tarefa"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_tarefas.xml:61: Warning: Hardcoded string "Adicionar", should use @string resource [HardcodedText]
+                android:text="Adicionar"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/activity_tarefas.xml:70: Warning: Hardcoded string "Toque para concluir. Segure para excluir.", should use @string resource [HardcodedText]
+            android:text="Toque para concluir. Segure para excluir."
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/remote_config_demo.xml:20: Warning: Hardcoded string "Voltar", should use @string resource [HardcodedText]
+            android:text="Voltar"
+            ~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/remote_config_demo.xml:27: Warning: Hardcoded string "Firebase Remote Config", should use @string resource [HardcodedText]
+            android:text="Firebase Remote Config"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/remote_config_demo.xml:62: Warning: Hardcoded string "Exibindo valores padrão do aplicativo", should use @string resource [HardcodedText]
+            android:text="Exibindo valores padrão do aplicativo"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/res/layout/remote_config_demo.xml:72: Warning: Hardcoded string "Buscar configurações", should use @string resource [HardcodedText]
+            android:text="Buscar configurações"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "HardcodedText":
    Hardcoding text attributes directly in layout files is bad for several
@@ -345,4 +216,4 @@ agp = "9.3.2"
    There are quickfixes to automatically extract this hardcoded string into a
    resource lookup.
 
-0 errors, 73 warnings
+0 errors, 37 warnings

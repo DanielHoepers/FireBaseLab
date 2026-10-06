@@ -8,6 +8,22 @@
             </map>
     </map>
     <map id="UnusedResources">
+        <location id="R.color.error_red"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="9"
+            column="12"
+            startOffset="356"
+            endLine="9"
+            endColumn="28"
+            endOffset="372"/>
+        <location id="R.color.success_green"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="8"
+            column="12"
+            startOffset="308"
+            endLine="8"
+            endColumn="32"
+            endOffset="328"/>
         <location id="R.string.app_name"
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
             line="3"
@@ -18,7 +34,7 @@
             endOffset="78"/>
         <entry
             name="model"
-            string="color[text_primary(U),text_secondary(U),error_red(U),firebase_orange(U),firebase_blue(U),screen_background(U),success_green(U)],id[btnVoltar(U),editEmail(U),editSenha(U),editConfirmarSenha(U),btnExecutar(U),textResultado(U),textStatus(U),textEmail(U),textUid(U),btnCadastro(U),btnLogin(U),btnVerificarEmail(U),btnRecuperarSenha(U),btnToken(U),btnSair(U),textUsuario(U),btnEnviar(U)],layout[activity_cadastro(U),activity_login(U),activity_main(U),activity_recuperar_senha(U),activity_token(U),activity_verificar_email(U)],string[app_name(D)],style[Theme_AuthFirebase(U),Widget_Material3_Button_OutlinedButton(R),Theme_Material3_DayNight_NoActionBar(R)];18^0^1,19^0^1,1a^0^2^1^20,1b^0^1,1c^0^1,1d^0^1,1f^21^4^3^5;;;"/>
+            string="color[text_primary(U),text_secondary(U),firebase_blue(U),firebase_orange(U),screen_background(U),success_green(D),error_red(D)],id[btnVoltar(U),btnExecutarFuncao(U),btnFuncaoNuvem(U),btnRemoteConfig(U),btnTarefas(U),campoTitulo(U),btnAdicionar(U),listaTarefas(U),faixaDestaque(U),textTituloConfig(U),textMensagemConfig(U),textOrigemConfig(U),btnBuscarConfiguracoes(U)],layout[activity_cloud_function(U),activity_main(U),activity_tarefas(U),remote_config_demo(U)],string[rc_default_title(U),rc_default_message(U),app_name(D)],style[Theme_AuthFirebase(U),Theme_Material3_DayNight_NoActionBar(R)],xml[remote_config_defaults(U)];14^0^1,15^0^1,16^0^1,17^1^2^18^19^0,1b^1c^2^3^4;;;"/>
     </map>
 
 </incidents>

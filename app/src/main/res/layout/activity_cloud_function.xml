@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Execute uma função no Firebase e veja a resposta em uma notificação. Não é necessário fazer login."
+            android:text="Execute uma função no Firebase e veja a resposta em uma notificação."
             android:textColor="@color/text_secondary"
             android:textSize="16sp" />
 

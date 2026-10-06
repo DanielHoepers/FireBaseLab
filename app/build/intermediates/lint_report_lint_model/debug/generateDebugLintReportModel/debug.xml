@@ -11,7 +11,7 @@
   <buildFeatures/>
   <sourceProviders>
     <sourceProvider
-        manifests="src/main/AndroidManifest.xml"
+        manifests="src/main/AndroidManifest.xml:src/debug/AndroidManifest.xml"
         javaDirectories="src/main/java:src/debug/java:src/main/kotlin:src/debug/kotlin"
         resDirectories="src/main/res:src/debug/res"
         assetsDirectories="src/main/assets:src/debug/assets"
@@ -25,7 +25,7 @@
       classOutputs="build/intermediates/javac/debug/compileDebugJavaWithJavac/classes:build/intermediates/built_in_kotlinc/debug/compileDebugKotlin/classes:build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar"
       type="MAIN"
       applicationId="com.example.authfirebase"
-      generatedSourceFolders="build/generated/ap_generated_sources/debug/out"
+      generatedSourceFolders="build/generated/ap_generated_sources/debug/out:build/generated/source/buildConfig/debug"
       generatedResourceFolders="build/generated/res/processDebugGoogleServices"
       desugaredMethodsFiles="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/685a90be984c5999a302d47896f6bf43/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>

@@ -10,13 +10,8 @@
         android:theme="@style/Theme.AuthFirebase">
 
         <activity android:name=".TarefasActivity" android:exported="false" />
-        <activity android:name=".TokenActivity" android:exported="false" />
-        <activity android:name=".RecuperarSenhaActivity" android:exported="false" />
-        <activity android:name=".VerificarEmailActivity" android:exported="false" />
-        <activity android:name=".LoginActivity" android:exported="false" />
-        <activity android:name=".CadastroActivity" android:exported="false" />
-        <activity android:name=".AuthActivity" android:exported="false" />
         <activity android:name=".CloudFunctionActivity" android:exported="false" />
+        <activity android:name=".remoteconfig.RemoteConfigActivity" android:exported="false" />
 
         <activity
             android:name=".MainActivity"

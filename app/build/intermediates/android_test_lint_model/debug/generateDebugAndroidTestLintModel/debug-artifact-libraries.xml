@@ -141,11 +141,25 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.firebase:firebase-appcheck-interop:17.0.0@aar"
-      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/aff5bf8445259f355d55e60936169ff5/transformed/firebase-appcheck-interop-17.0.0/jars/classes.jar"
-      resolved="com.google.firebase:firebase-appcheck-interop:17.0.0"
+      name="com.google.firebase:firebase-firestore:26.6.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-firestore:26.6.0"
       provided="true"
-      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/aff5bf8445259f355d55e60936169ff5/transformed/firebase-appcheck-interop-17.0.0"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/5408adf9943626f9d96675e3f945b066/transformed/firebase-firestore-26.6.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-functions:22.1.1@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1/jars/classes.jar"
+      resolved="com.google.firebase:firebase-functions:22.1.1"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/b7e623977a490ebe4c4d720522608b3f/transformed/firebase-functions-22.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -160,6 +174,90 @@
       resolved="com.google.firebase:firebase-auth-interop:20.0.0"
       provided="true"
       folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/36f4a54443c4ef2c1a99bf987f307446/transformed/firebase-auth-interop-20.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-config:23.1.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-config:23.1.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/9968a171d275e542237c3bd15aaa417d/transformed/firebase-config-23.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-iid:21.1.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-iid:21.1.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/4e4284f100eae34a19f7672fcc2bae81/transformed/firebase-iid-21.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-installations:19.1.2@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2/jars/classes.jar"
+      resolved="com.google.firebase:firebase-installations:19.1.2"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/e45acae3c21dca8bf2e2f9a14e984715/transformed/firebase-installations-19.1.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-appcheck-interop:17.1.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/53275ef37ac8b2766d2286e85314f7f0/transformed/firebase-appcheck-interop-17.1.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-appcheck-interop:17.1.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/53275ef37ac8b2766d2286e85314f7f0/transformed/firebase-appcheck-interop-17.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-iid-interop:17.1.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/ab9bad5b20bcfbc19dc8e6cafc3b58d3/transformed/firebase-iid-interop-17.1.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-iid-interop:17.1.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/ab9bad5b20bcfbc19dc8e6cafc3b58d3/transformed/firebase-iid-interop-17.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-database-collection:18.0.1@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/15ad5cadfbcf5bde7f0c87da6b68fee6/transformed/firebase-database-collection-18.0.1/jars/classes.jar"
+      resolved="com.google.firebase:firebase-database-collection:18.0.1"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/15ad5cadfbcf5bde7f0c87da6b68fee6/transformed/firebase-database-collection-18.0.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -345,6 +443,34 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.android.gms:play-services-stats:17.0.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/f90537d75faa009102a4733746954369/transformed/play-services-stats-17.0.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-stats:17.0.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/f90537d75faa009102a4733746954369/transformed/play-services-stats-17.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.legacy:legacy-support-core-utils:1.0.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/de6c55a124649652abf4954d598c0a70/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar"
+      resolved="androidx.legacy:legacy-support-core-utils:1.0.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/de6c55a124649652abf4954d598c0a70/transformed/legacy-support-core-utils-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.loader:loader:1.0.0@aar"
       jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/d93906485a7fe644a5f463644cba7103/transformed/loader-1.0.0/jars/classes.jar"
       resolved="androidx.loader:loader:1.0.0"
@@ -516,11 +642,53 @@
       resolved="org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0"
       provided="true"/>
   <library
-      name="com.google.android.gms:play-services-tasks:18.2.0@aar"
-      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/dc82cdbe2c21f63d325cf5a1bb3a794e/transformed/play-services-tasks-18.2.0/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-tasks:18.2.0"
+      name="com.google.android.gms:play-services-cloud-messaging:16.0.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-cloud-messaging:16.0.0"
       provided="true"
-      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/dc82cdbe2c21f63d325cf5a1bb3a794e/transformed/play-services-tasks-18.2.0"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/be463f48e9b17f89f130a726f606c480/transformed/play-services-cloud-messaging-16.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-tasks:18.4.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/e6a2194acd9e62f4fd1ebb36a4bdb315/transformed/play-services-tasks-18.4.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-tasks:18.4.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/e6a2194acd9e62f4fd1ebb36a4bdb315/transformed/play-services-tasks-18.4.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-abt:21.1.1@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1/jars/classes.jar"
+      resolved="com.google.firebase:firebase-abt:21.1.1"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/313c8f9d8ae792a8da7fef128d39e134/transformed/firebase-abt-21.1.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-measurement-connector:18.0.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/6f1e87ccd49c10953291673f958a03ff/transformed/firebase-measurement-connector-18.0.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-measurement-connector:18.0.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/6f1e87ccd49c10953291673f958a03ff/transformed/firebase-measurement-connector-18.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -798,11 +966,72 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.firebase:firebase-config-interop:16.0.1@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/7b826fd1d184e5aa0e7279d9225c04de/transformed/firebase-config-interop-16.0.1/jars/classes.jar"
+      resolved="com.google.firebase:firebase-config-interop:16.0.1"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/7b826fd1d184e5aa0e7279d9225c04de/transformed/firebase-config-interop-16.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-encoders-json:18.0.1@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/37b5bdd5d26cdf1f6d70a1915f634968/transformed/firebase-encoders-json-18.0.1/jars/classes.jar"
+      resolved="com.google.firebase:firebase-encoders-json:18.0.1"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/37b5bdd5d26cdf1f6d70a1915f634968/transformed/firebase-encoders-json-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.firebase:firebase-encoders:17.0.0@jar"
+      jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders/17.0.0/26f52dc549c42575b155f8c720e84059ee600a85/firebase-encoders-17.0.0.jar"
+      resolved="com.google.firebase:firebase-encoders:17.0.0"
+      provided="true"/>
+  <library
       name="androidx.arch.core:core-runtime:2.1.0@aar"
       jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/e0d00edf8e58157085ef0bd8a9dbc583/transformed/core-runtime-2.1.0/jars/classes.jar"
       resolved="androidx.arch.core:core-runtime:2.1.0"
       provided="true"
       folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/e0d00edf8e58157085ef0bd8a9dbc583/transformed/core-runtime-2.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.documentfile:documentfile:1.0.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/3a37cbf2c8c045aeed77eb8430631c09/transformed/documentfile-1.0.0/jars/classes.jar"
+      resolved="androidx.documentfile:documentfile:1.0.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/3a37cbf2c8c045aeed77eb8430631c09/transformed/documentfile-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.print:print:1.0.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/332946e41e4bf748de7687e38d734f30/transformed/print-1.0.0/jars/classes.jar"
+      resolved="androidx.print:print:1.0.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/332946e41e4bf748de7687e38d734f30/transformed/print-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -834,6 +1063,16 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0@jar"
+      jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.0/ed04f49e186a116753ad70d34f0ac2925d1d8020/kotlin-stdlib-jdk8-1.8.0.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      provided="true"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0@jar"
+      jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.0/3c91271347f678c239607abb676d4032a7898427/kotlin-stdlib-jdk7-1.8.0.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0"
+      provided="true"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib:2.2.10@jar"
       jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.10/30de6faa127a4a012db8e71bf1b9c0a99b1402b2/kotlin-stdlib-2.2.10.jar"
@@ -877,7 +1116,8 @@
   <library
       name="com.google.guava:listenablefuture:1.0@jar"
       jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
-      resolved="com.google.guava:listenablefuture:1.0"/>
+      resolved="com.google.guava:listenablefuture:1.0"
+      provided="true"/>
   <library
       name="javax.inject:javax.inject:1@jar"
       jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
@@ -951,9 +1191,42 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.firebase:firebase-installations-interop:17.3.0@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/0bc23c034ac043c00666f082d24be2eb/transformed/firebase-installations-interop-17.3.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-installations-interop:17.3.0"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/0bc23c034ac043c00666f082d24be2eb/transformed/firebase-installations-interop-17.3.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="com.google.firebase:firebase-annotations:17.0.0@jar"
       jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-annotations/17.0.0/fd04a6accd970e0fcf9baf2424abe2926e00d0e2/firebase-annotations-17.0.0.jar"
       resolved="com.google.firebase:firebase-annotations:17.0.0"
+      provided="true"/>
+  <library
+      name="com.google.firebase:protolite-well-known-types:18.0.1@aar"
+      jars="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/db3a68f69c877420f58891736fd07a14/transformed/protolite-well-known-types-18.0.1/jars/classes.jar"
+      resolved="com.google.firebase:protolite-well-known-types:18.0.1"
+      provided="true"
+      folder="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/db3a68f69c877420f58891736fd07a14/transformed/protolite-well-known-types-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.reactivestreams:reactive-streams:1.0.4@jar"
+      jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.4/3864a1320d97d7b045f729a326e1e077661f31b7/reactive-streams-1.0.4.jar"
+      resolved="org.reactivestreams:reactive-streams:1.0.4"
       provided="true"/>
   <library
       name="com.google.android.play:core-common:2.0.3@aar"
@@ -986,6 +1259,10 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar"
+      jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+      resolved="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"/>
   <library
       name="com.google.errorprone:error_prone_annotations:2.26.0@jar"
       jars="/Users/danielhoepers/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.26.0/c513866fd91bb46587500440a80fa943e95d12d9/error_prone_annotations-2.26.0.jar"

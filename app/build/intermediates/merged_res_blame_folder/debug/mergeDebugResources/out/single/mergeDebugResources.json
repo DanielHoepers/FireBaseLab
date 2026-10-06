@@ -4,23 +4,19 @@
         "source": "com.example.authfirebase.app-main-55:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_verificar_email.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_verificar_email.xml"
+        "merged": "com.example.authfirebase.app-debug-53:/xml_remote_config_defaults.xml.flat",
+        "source": "com.example.authfirebase.app-main-55:/xml/remote_config_defaults.xml"
     },
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_recuperar_senha.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_recuperar_senha.xml"
+        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_cloud_function.xml.flat",
+        "source": "com.example.authfirebase.app-main-55:/layout/activity_cloud_function.xml"
     },
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_cadastro.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_cadastro.xml"
+        "merged": "com.example.authfirebase.app-debug-53:/layout_remote_config_demo.xml.flat",
+        "source": "com.example.authfirebase.app-main-55:/layout/remote_config_demo.xml"
     },
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_login.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_token.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_token.xml"
+        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_tarefas.xml.flat",
+        "source": "com.example.authfirebase.app-main-55:/layout/activity_tarefas.xml"
     }
 ]

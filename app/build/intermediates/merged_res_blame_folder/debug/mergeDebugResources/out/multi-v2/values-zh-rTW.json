@@ -72,13 +72,13 @@
                     }
                 },
                 {
-                    "source": "/Users/danielhoepers/.gradle/caches/9.5.0/transforms/74348ac914f801d8c8835348052090d9/transformed/play-services-base-18.0.1/res/values-zh-rTW/values.xml",
+                    "source": "/Users/danielhoepers/.gradle/caches/9.5.0/transforms/7fdd93e8c6d89f83e64c863979f996a4/transformed/play-services-base-18.9.0/res/values-zh-rTW/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "197,294,418,529,627,730,842,938,1029,1135,1232,1357,1468,1566,1670,1722,1775",
+                        "startOffsets": "220,317,441,552,650,753,865,961,1052,1158,1255,1380,1491,1589,1693,1745,1798",
                         "endColumns": "96,123,110,97,102,111,95,90,105,96,124,110,97,103,51,52,69",
-                        "endOffsets": "293,417,528,626,729,841,937,1028,1134,1231,1356,1467,1565,1669,1721,1774,1844"
+                        "endOffsets": "316,440,551,649,752,864,960,1051,1157,1254,1379,1490,1588,1692,1744,1797,1867"
                     },
                     "to": {
                         "startLines": "55,56,57,58,59,60,61,62,64,65,66,67,68,69,70,71,72",
