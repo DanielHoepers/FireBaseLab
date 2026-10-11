@@ -1,22 +1,26 @@
 [
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_main.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_main.xml"
+        "merged": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-debug-53:/layout_activity_main.xml.flat",
+        "source": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-debug-53:/layout_activity_cloud_function.xml.flat",
+        "source": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-main-55:/layout/activity_cloud_function.xml"
     },
     {
         "merged": "com.example.authfirebase.app-debug-53:/xml_remote_config_defaults.xml.flat",
         "source": "com.example.authfirebase.app-main-55:/xml/remote_config_defaults.xml"
     },
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_cloud_function.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_cloud_function.xml"
+        "merged": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-debug-53:/xml_remote_config_defaults.xml.flat",
+        "source": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-main-55:/xml/remote_config_defaults.xml"
     },
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_remote_config_demo.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/remote_config_demo.xml"
+        "merged": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-debug-53:/layout_activity_tarefas.xml.flat",
+        "source": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-main-55:/layout/activity_tarefas.xml"
     },
     {
-        "merged": "com.example.authfirebase.app-debug-53:/layout_activity_tarefas.xml.flat",
-        "source": "com.example.authfirebase.app-main-55:/layout/activity_tarefas.xml"
+        "merged": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-debug-53:/layout_activity_remote_config.xml.flat",
+        "source": "/Users/danielhoepers/.gradle/daemon/9.5.0/com.example.authfirebase.app-main-55:/layout/activity_remote_config.xml"
     }
 ]

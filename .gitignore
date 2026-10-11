@@ -1,16 +1,45 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Android e Gradle: arquivos gerados em qualquer módulo
+.gradle/
+.kotlin/
+build/
 local.properties
-/functions/node_modules/
+.externalNativeBuild/
+.cxx/
+captures/
+*.apk
+*.aab
+
+# Configurações locais do Android Studio
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+
+# Dependências e arquivos temporários do Firebase
+node_modules/
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+npm-debug.log*
+
+# Variáveis locais e chaves de assinatura
+.env
+.env.*
+!.env.example
+!.env.sample
+*.jks
+*.keystore
+keystore.properties
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configuração local do projeto Firebase
+/app/google-services.json

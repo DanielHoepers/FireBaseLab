@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="gcm_defaultSenderId" translatable="false">718422461869</string>
-    <string name="google_api_key" translatable="false">AIzaSyCQFQJptQMTjfSInGMk_d6KW0bF8Vy9OEA</string>
-    <string name="google_app_id" translatable="false">1:718422461869:android:b6bb1fdbb54b31b480e524</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCQFQJptQMTjfSInGMk_d6KW0bF8Vy9OEA</string>
-    <string name="google_storage_bucket" translatable="false">authfirebase-efdb9.firebasestorage.app</string>
-    <string name="project_id" translatable="false">authfirebase-efdb9</string>
+    <string name="gcm_defaultSenderId" translatable="false">785551272472</string>
+    <string name="google_api_key" translatable="false">AIzaSyAGx9G406FSqjU8O5Y1FjqqzeM1TnkLp6w</string>
+    <string name="google_app_id" translatable="false">1:785551272472:android:f9c1cf4a8df2a1e3d8716d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAGx9G406FSqjU8O5Y1FjqqzeM1TnkLp6w</string>
+    <string name="google_storage_bucket" translatable="false">fir-lab-5b421.firebasestorage.app</string>
+    <string name="project_id" translatable="false">fir-lab-5b421</string>
 </resources>

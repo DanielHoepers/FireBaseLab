@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.authfirebase"
+        applicationId = "FireBase.Lab"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

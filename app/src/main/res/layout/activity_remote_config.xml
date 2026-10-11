@@ -17,14 +17,14 @@
             android:id="@+id/btnVoltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Voltar"
+            android:text="@string/rc_back"
             android:textAllCaps="false" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:text="Firebase Remote Config"
+            android:text="@string/rc_screen_title"
             android:textColor="@color/text_secondary"
             android:textSize="16sp" />
 
@@ -55,11 +55,11 @@
             android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/textOrigemConfig"
+            android:id="@+id/textStatusConfig"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Exibindo valores padrão do aplicativo"
+            android:text="@string/rc_initializing"
             android:textColor="@color/text_secondary"
             android:textSize="14sp" />
 
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:enabled="false"
-            android:text="Buscar configurações"
+            android:text="@string/rc_fetch"
             android:textAllCaps="false"
             app:cornerRadius="6dp" />
     </LinearLayout>

@@ -1,40 +1,21 @@
 {
   "project_info": {
-    "project_number": "718422461869",
-    "project_id": "authfirebase-efdb9",
-    "storage_bucket": "authfirebase-efdb9.firebasestorage.app"
+    "project_number": "785551272472",
+    "project_id": "fir-lab-5b421",
+    "storage_bucket": "fir-lab-5b421.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:718422461869:android:c0fecb368ec2009780e524",
+        "mobilesdk_app_id": "1:785551272472:android:f9c1cf4a8df2a1e3d8716d",
         "android_client_info": {
-          "package_name": "Auth.Firebase"
+          "package_name": "FireBase.Lab"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCQFQJptQMTjfSInGMk_d6KW0bF8Vy9OEA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:718422461869:android:b6bb1fdbb54b31b480e524",
-        "android_client_info": {
-          "package_name": "com.example.authfirebase"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCQFQJptQMTjfSInGMk_d6KW0bF8Vy9OEA"
+          "current_key": "AIzaSyAGx9G406FSqjU8O5Y1FjqqzeM1TnkLp6w"
         }
       ],
       "services": {

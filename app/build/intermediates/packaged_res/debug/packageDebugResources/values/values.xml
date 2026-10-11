@@ -7,15 +7,24 @@
     <color name="success_green">#18794E</color>
     <color name="text_primary">#1F2937</color>
     <color name="text_secondary">#607086</color>
-    <string name="app_name">Firebase Lab</string>
-    <string name="gcm_defaultSenderId" translatable="false">718422461869</string>
-    <string name="google_api_key" translatable="false">AIzaSyCQFQJptQMTjfSInGMk_d6KW0bF8Vy9OEA</string>
-    <string name="google_app_id" translatable="false">1:718422461869:android:b6bb1fdbb54b31b480e524</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCQFQJptQMTjfSInGMk_d6KW0bF8Vy9OEA</string>
-    <string name="google_storage_bucket" translatable="false">authfirebase-efdb9.firebasestorage.app</string>
-    <string name="project_id" translatable="false">authfirebase-efdb9</string>
+    <string name="app_name">FireBaseLab</string>
+    <string name="gcm_defaultSenderId" translatable="false">785551272472</string>
+    <string name="google_api_key" translatable="false">AIzaSyAGx9G406FSqjU8O5Y1FjqqzeM1TnkLp6w</string>
+    <string name="google_app_id" translatable="false">1:785551272472:android:f9c1cf4a8df2a1e3d8716d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAGx9G406FSqjU8O5Y1FjqqzeM1TnkLp6w</string>
+    <string name="google_storage_bucket" translatable="false">fir-lab-5b421.firebasestorage.app</string>
+    <string name="project_id" translatable="false">fir-lab-5b421</string>
+    <string name="rc_applied">Configurações disponíveis aplicadas à tela.</string>
+    <string name="rc_back">Voltar</string>
     <string name="rc_default_message">Esta mensagem está salva no aplicativo. Publique novos valores no Firebase para alterá-la.</string>
     <string name="rc_default_title">Bem-vindo ao Remote Config</string>
+    <string name="rc_fetch">Buscar configurações</string>
+    <string name="rc_fetch_error">Não foi possível buscar. Os valores atuais foram mantidos. Verifique a conexão e tente novamente.</string>
+    <string name="rc_init_error">Não foi possível preparar o Remote Config. Reabra esta tela para tentar novamente.</string>
+    <string name="rc_initializing">Preparando configurações…</string>
+    <string name="rc_invalid_color">Cor inválida no Firebase. Usando a cor padrão.</string>
+    <string name="rc_loading">Buscando configurações no Firebase…</string>
+    <string name="rc_screen_title">Firebase Remote Config</string>
     <style name="Theme.AuthFirebase" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/firebase_blue</item>
         <item name="colorSecondary">@color/firebase_orange</item>

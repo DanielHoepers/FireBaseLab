@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.AuthFirebase" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/firebase_blue</item>
-        <item name="colorSecondary">@color/firebase_orange</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-</resources>

@@ -1,11 +1,11 @@
-# Firebase Lab
+# FireBaseLab
 
 Aplicativo Android em Java para demonstrar Cloud Functions, Remote Config e Cloud Firestore.
 
 ## Pré-requisitos
 
 - Android Studio com suporte ao projeto Gradle existente.
-- Projeto Firebase `authfirebase-efdb9`, já configurado em `app/google-services.json`.
+- Projeto Firebase `fir-lab-5b421`, já configurado em `app/google-services.json`.
 - Acesso à internet no dispositivo para buscar valores publicados do Remote Config.
 - Para publicar a função: projeto no plano **Blaze**, Node.js 22 e Firebase CLI com acesso ao projeto.
 
@@ -15,28 +15,32 @@ O aplicativo abre em `MainActivity`, com as opções **Cloud Functions**, **Remo
 
 Na tela **Cloud Functions**, toque em **Executar função**. O app chama `saudacao`, uma função HTTPS callable em `us-central1`, e mostra a resposta recebida em uma notificação. Essa demonstração não grava dados.
 
-Na tela **Remote Config**, o título, a mensagem e a cor de destaque vêm dos parâmetros `titulo_app`, `mensagem_app` e `cor_destaque`. Antes da primeira busca, são exibidos os valores padrão locais de `app/src/main/res/xml/remote_config_defaults.xml`. O botão **Buscar configurações** busca e ativa os valores publicados. Em compilações de depuração, o intervalo mínimo de busca é **0 segundos** para permitir vários testes durante uma apresentação; em produção, é **12 horas**. O serviço ainda pode limitar buscas excessivas.
+Na tela **Remote Config**, o título, a mensagem e a cor de destaque vêm dos parâmetros `TITULO_APP`, `MENSAGEM_APP` e `COR_DESTAQUE`. Sem valores remotos já ativados, são exibidos os valores padrão locais de `app/src/main/res/xml/remote_config_defaults.xml`. O botão **Buscar configurações** busca e ativa os valores publicados. Em compilações de depuração, o intervalo mínimo de busca é **0 segundos** para permitir vários testes durante uma apresentação; em produção, é **12 horas**. O serviço ainda pode limitar buscas excessivas.
 
 Na tela **Tarefas (Firestore)**, uma sessão Firebase já existente no aparelho permite criar tarefas em `usuarios/{uid}/tarefas` e ver a lista atualizar em tempo real. Toque numa tarefa para concluí-la e segure para excluí-la. O aplicativo não oferece mais uma tela para entrar nessa sessão; em uma instalação nova, Tarefas não poderá ser usada até que exista uma sessão válida.
 
 ## Configurar e apresentar o Remote Config
 
-No [console do Firebase](https://console.firebase.google.com/project/authfirebase-efdb9/config), abra **Remote Config**, crie estes parâmetros do tipo texto e publique as alterações:
+No [console do Firebase](https://console.firebase.google.com/project/fir-lab-5b421/config), abra **Remote Config**, crie estes parâmetros do tipo texto e publique as alterações:
 
 | Parâmetro | Exemplo de valor |
 | --- | --- |
-| `titulo_app` | `Apresentação ao vivo` |
-| `mensagem_app` | `Texto alterado pelo Firebase sem recompilar o app.` |
-| `cor_destaque` | `#E65100` |
+| `TITULO_APP` | `Apresentação ao vivo` |
+| `MENSAGEM_APP` | `Texto alterado pelo Firebase sem recompilar o app.` |
+| `COR_DESTAQUE` | `#E65100` |
 
-Para a aula, execute a variante **debug** no Android Studio. Abra **Remote Config** para mostrar os padrões locais; depois toque em **Buscar configurações**. Altere os três valores no console, clique em **Publicar alterações** e toque novamente em **Buscar configurações**. O título, a mensagem e a cor mudam sem reinstalar o app. Use uma cor hexadecimal no formato `#RRGGBB` ou `#AARRGGBB`.
+Para a aula, execute a variante **debug** no Android Studio. Abra **Remote Config** para mostrar os valores disponíveis (padrões locais ou valores remotos de uma busca anterior); depois toque em **Buscar configurações**. Altere os três valores no console, clique em **Publicar alterações** e toque novamente em **Buscar configurações**. O título, a mensagem e a cor mudam sem reinstalar o app. A cor altera somente a faixa de destaque, mantendo a leitura do título e do botão. Use uma cor hexadecimal no formato `#RRGGBB` ou `#AARRGGBB`.
+
+Se a busca falhar, os valores atuais permanecem na tela e o botão permite tentar novamente. Se a cor for inválida, a faixa usa o azul padrão. A configuração segue o [guia oficial do Firebase para Android](https://firebase.google.com/docs/remote-config/android/get-started).
+
+Para conferir a demonstração: publique os três parâmetros e busque; repita sem internet; teste uma cor inválida; coloque o app em segundo plano durante a busca e volte. O botão deve voltar a ficar disponível ao terminar a operação. Reabrir a tela mantém os valores remotos já ativados.
 
 ## Configurar o Firestore
 
 No console, crie o banco em **Firestore Database** no modo de produção. Depois publique as regras de `firestore.rules`, que deixam cada usuário acessar só as próprias tarefas:
 
 ```sh
-firebase deploy --only firestore:rules --project authfirebase-efdb9
+firebase deploy --only firestore:rules --project fir-lab-5b421
 ```
 
 Também é possível colar o conteúdo do arquivo na aba **Regras** do console e clicar em **Publicar**.
@@ -48,7 +52,7 @@ Na raiz do projeto, instale as dependências do backend e publique somente a fun
 ```sh
 npm --prefix functions install
 firebase login
-firebase deploy --only functions:saudacao --project authfirebase-efdb9
+firebase deploy --only functions:saudacao --project fir-lab-5b421
 ```
 
 O arquivo `firebase.json` aponta para `functions/` e para as regras do Firestore. A função está em `functions/index.js`. Depois do deploy, execute o aplicativo em um dispositivo ou emulador com conexão à internet. Se a publicação falhar, confira o acesso à conta Firebase, o plano Blaze e as APIs exigidas pela CLI.

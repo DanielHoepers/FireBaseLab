@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.authfirebase"
+    package="FireBase.Lab"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,17 +15,17 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.example.authfirebase.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="FireBase.Lab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.authfirebase.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="FireBase.Lab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:label="Firebase Lab"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AuthFirebase"
@@ -37,7 +37,7 @@
             android:name="com.example.authfirebase.CloudFunctionActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.authfirebase.remoteconfig.RemoteConfigActivity"
+            android:name="com.example.authfirebase.RemoteConfigActivity"
             android:exported="false" />
         <activity
             android:name="com.example.authfirebase.MainActivity"
@@ -160,7 +160,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.authfirebase.firebaseinitprovider"
+            android:authorities="FireBase.Lab.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -172,7 +172,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.authfirebase.androidx-startup"
+            android:authorities="FireBase.Lab.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

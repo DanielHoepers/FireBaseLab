@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Firebase Lab</string>
+    <string name="app_name">FireBaseLab</string>
     <string name="rc_default_title">Bem-vindo ao Remote Config</string>
     <string name="rc_default_message">Esta mensagem está salva no aplicativo. Publique novos valores no Firebase para alterá-la.</string>
+    <string name="rc_back">Voltar</string>
+    <string name="rc_screen_title">Firebase Remote Config</string>
+    <string name="rc_fetch">Buscar configurações</string>
+    <string name="rc_initializing">Preparando configurações…</string>
+    <string name="rc_loading">Buscando configurações no Firebase…</string>
+    <string name="rc_applied">Configurações disponíveis aplicadas à tela.</string>
+    <string name="rc_init_error">Não foi possível preparar o Remote Config. Reabra esta tela para tentar novamente.</string>
+    <string name="rc_fetch_error">Não foi possível buscar. Os valores atuais foram mantidos. Verifique a conexão e tente novamente.</string>
+    <string name="rc_invalid_color">Cor inválida no Firebase. Usando a cor padrão.</string>
 </resources>

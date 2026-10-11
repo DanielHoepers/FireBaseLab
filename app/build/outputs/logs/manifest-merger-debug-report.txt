@@ -192,8 +192,8 @@ MERGED from [com.google.android.play:core-common:2.0.3] /Users/danielhoepers/.gr
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:9:9-35
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:8:9-37
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:8:9-37
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:7:9-35
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:7:9-35
@@ -214,12 +214,12 @@ ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:57-81
 	android:name
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:19-56
-activity#com.example.authfirebase.remoteconfig.RemoteConfigActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:9-96
+activity#com.example.authfirebase.RemoteConfigActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:9-83
 	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:69-93
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:56-80
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:19-68
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:19-55
 activity#com.example.authfirebase.MainActivity
 ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:16:9-23:20
 	android:exported
@@ -698,7 +698,7 @@ ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0
 		ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
-permission#com.example.authfirebase.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#FireBase.Lab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
@@ -708,7 +708,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
-uses-permission#com.example.authfirebase.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#FireBase.Lab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.18.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/2bc44d3e7dd54dc2914cd9330f893de2/transformed/core-1.18.0/AndroidManifest.xml:26:22-94

@@ -15,7 +15,7 @@ fi
 "$adb_tool" reverse tcp:5001 tcp:5001
 
 if command -v firebase >/dev/null 2>&1; then
-    exec firebase emulators:start --only functions --project authfirebase-efdb9
+    exec firebase emulators:start --only functions --project fir-lab-5b421
 fi
 
-exec npx firebase-tools emulators:start --only functions --project authfirebase-efdb9
+exec npx firebase-tools emulators:start --only functions --project fir-lab-5b421
