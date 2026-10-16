@@ -3,7 +3,7 @@
     dir="/Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app"
     name=":app"
     type="APP"
-    maven="AuthFirebase:app:unspecified"
+    maven="FireBaseLab:app:unspecified"
     agpVersion="9.3.2"
     buildFolder="build"
     bootClassPath="/Users/danielhoepers/Library/Android/sdk/platforms/android-37.0/android.jar:/Users/danielhoepers/Library/Android/sdk/build-tools/36.0.0/core-lambda-stubs.jar"

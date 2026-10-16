@@ -17,12 +17,12 @@
                     "language": "en-US",
                     "rules": [
                         {
-                            "id": "AndroidGradlePluginVersion",
+                            "id": "GradleDependency",
                             "shortDescription": {
-                                "text": "Obsolete Android Gradle Plugin Version"
+                                "text": "Obsolete Gradle Dependency"
                             },
                             "fullDescription": {
-                                "text": "This detector looks for usage of the Android Gradle Plugin where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+                                "text": "This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
                             },
                             "defaultConfiguration": {
                                 "level": "warning",
@@ -157,34 +157,34 @@
             },
             "results": [
                 {
-                    "ruleId": "AndroidGradlePluginVersion",
+                    "ruleId": "GradleDependency",
                     "ruleIndex": 0,
                     "message": {
-                        "text": "A newer version of Gradle than 9.5.0 is available: 9.7.1"
+                        "text": "A newer version of com.google.firebase:firebase-bom than 34.19.0 is available: 35.0.0"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "gradle/wrapper/gradle-wrapper.properties"
+                                    "uri": "app/build.gradle.kts"
                                 },
                                 "region": {
-                                    "startLine": 5,
-                                    "startColumn": 17,
-                                    "endLine": 5,
-                                    "endColumn": 80,
-                                    "charOffset": 204,
-                                    "charLength": 63,
+                                    "startLine": 47,
+                                    "startColumn": 29,
+                                    "endLine": 47,
+                                    "endColumn": 71,
+                                    "charOffset": 953,
+                                    "charLength": 42,
                                     "snippet": {
-                                        "text": "https\\://services.gradle.org/distributions/gradle-9.5.0-bin.zip"
+                                        "text": "\"com.google.firebase:firebase-bom:34.19.0\""
                                     }
                                 },
                                 "contextRegion": {
-                                    "startLine": 3,
-                                    "endLine": 8,
+                                    "startLine": 45,
+                                    "endLine": 50,
                                     "snippet": {
-                                        "text": "distributionPath=wrapper/dists\ndistributionSha256Sum=553c78f50dafcd54d65b9a444649057857469edf836431389695608536d6b746\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-9.5.0-bin.zip\nnetworkTimeout=10000\nvalidateDistributionUrl=true\n"
+                                        "text": "    implementation(libs.material)\n\n    implementation(platform(\"com.google.firebase:firebase-bom:34.19.0\"))\n    implementation(\"com.google.firebase:firebase-auth\")\n    implementation(\"com.google.firebase:firebase-functions\")\n"
                                     }
                                 }
                             }
@@ -193,26 +193,26 @@
                     "fixes": [
                         {
                             "description": {
-                                "text": "Update to 9.7.1"
+                                "text": "Change to 35.0.0"
                             },
                             "artifactChanges": [
                                 {
                                     "artifactLocation": {
                                         "uriBaseId": "%SRCROOT%",
-                                        "uri": "gradle/wrapper/gradle-wrapper.properties"
+                                        "uri": "app/build.gradle.kts"
                                     },
                                     "replacements": [
                                         {
                                             "deletedRegion": {
-                                                "startLine": 5,
-                                                "startColumn": 67,
-                                                "charOffset": 254,
-                                                "endLine": 5,
-                                                "endColumn": 72,
-                                                "charLength": 5
+                                                "startLine": 47,
+                                                "startColumn": 63,
+                                                "charOffset": 987,
+                                                "endLine": 47,
+                                                "endColumn": 70,
+                                                "charLength": 7
                                             },
                                             "insertedContent": {
-                                                "text": "9.7.1\n"
+                                                "text": "35.0.0\n"
                                             }
                                         }
                                     ]
@@ -221,103 +221,7 @@
                         }
                     ],
                     "partialFingerprints": {
-                        "sourceContext/v1": "5f86193aa1f0cbff"
-                    }
-                },
-                {
-                    "ruleId": "AndroidGradlePluginVersion",
-                    "ruleIndex": 0,
-                    "message": {
-                        "text": "A newer version of com.android.application than 9.3.2 is available: 9.4.1. (There is also a newer version of 9.3.𝑥 available, if upgrading to 9.4.1 is difficult: 9.3.3)"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "gradle/libs.versions.toml"
-                                },
-                                "region": {
-                                    "startLine": 2,
-                                    "startColumn": 7,
-                                    "endLine": 2,
-                                    "endColumn": 14,
-                                    "charOffset": 17,
-                                    "charLength": 7,
-                                    "snippet": {
-                                        "text": "\"9.3.2\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 1,
-                                    "endLine": 5,
-                                    "snippet": {
-                                        "text": "[versions]\nagp = \"9.3.2\"\njunit = \"4.13.2\"\njunitVersion = \"1.3.0\"\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                        {
-                            "description": {
-                                "text": "Replace with 9.3.3"
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "gradle/libs.versions.toml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 2,
-                                                "startColumn": 8,
-                                                "charOffset": 18,
-                                                "endLine": 2,
-                                                "endColumn": 13,
-                                                "charLength": 5
-                                            },
-                                            "insertedContent": {
-                                                "text": "9.3.3\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "description": {
-                                "text": "Replace with 9.4.1"
-                            },
-                            "artifactChanges": [
-                                {
-                                    "artifactLocation": {
-                                        "uriBaseId": "%SRCROOT%",
-                                        "uri": "gradle/libs.versions.toml"
-                                    },
-                                    "replacements": [
-                                        {
-                                            "deletedRegion": {
-                                                "startLine": 2,
-                                                "startColumn": 8,
-                                                "charOffset": 18,
-                                                "endLine": 2,
-                                                "endColumn": 13,
-                                                "charLength": 5
-                                            },
-                                            "insertedContent": {
-                                                "text": "9.4.1\n"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "78d21475e9db459b"
+                        "sourceContext/v1": "4b8ef9787e75599c"
                     }
                 },
                 {
@@ -410,6 +314,45 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
+                                    "uri": "app/src/main/res/layout/activity_remote_config.xml"
+                                },
+                                "region": {
+                                    "startLine": 6,
+                                    "startColumn": 5,
+                                    "endLine": 6,
+                                    "endColumn": 46,
+                                    "charOffset": 251,
+                                    "charLength": 41,
+                                    "snippet": {
+                                        "text": "android:background=\"@android:color/white\""
+                                    }
+                                },
+                                "contextRegion": {
+                                    "startLine": 4,
+                                    "endLine": 9,
+                                    "snippet": {
+                                        "text": "    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    android:background=\"@android:color/white\"\n    android:fillViewport=\"true\"\n    android:fitsSystemWindows=\"true\">\n"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "sourceContext/v1": "d728f4f25be62f60"
+                    }
+                },
+                {
+                    "ruleId": "Overdraw",
+                    "ruleIndex": 3,
+                    "message": {
+                        "text": "Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase)",
+                        "markdown": "Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@style/Theme.AuthFirebase`)"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uriBaseId": "%SRCROOT%",
                                     "uri": "app/src/main/res/layout/activity_tarefas.xml"
                                 },
                                 "region": {
@@ -435,45 +378,6 @@
                     ],
                     "partialFingerprints": {
                         "sourceContext/v1": "b75a8c6fda1c50a5"
-                    }
-                },
-                {
-                    "ruleId": "Overdraw",
-                    "ruleIndex": 3,
-                    "message": {
-                        "text": "Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.AuthFirebase)",
-                        "markdown": "Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@style/Theme.AuthFirebase`)"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/res/layout/remote_config_demo.xml"
-                                },
-                                "region": {
-                                    "startLine": 6,
-                                    "startColumn": 5,
-                                    "endLine": 6,
-                                    "endColumn": 46,
-                                    "charOffset": 251,
-                                    "charLength": 41,
-                                    "snippet": {
-                                        "text": "android:background=\"@android:color/white\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 4,
-                                    "endLine": 9,
-                                    "snippet": {
-                                        "text": "    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    android:background=\"@android:color/white\"\n    android:fillViewport=\"true\"\n    android:fitsSystemWindows=\"true\">\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "d728f4f25be62f60"
                     }
                 },
                 {
@@ -559,47 +463,6 @@
                     }
                 },
                 {
-                    "ruleId": "UnusedResources",
-                    "ruleIndex": 5,
-                    "message": {
-                        "text": "The resource R.string.app_name appears to be unused",
-                        "markdown": "The resource `R.string.app_name` appears to be unused"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/res/values/strings.xml"
-                                },
-                                "region": {
-                                    "startLine": 3,
-                                    "startColumn": 13,
-                                    "endLine": 3,
-                                    "endColumn": 28,
-                                    "charOffset": 63,
-                                    "charLength": 15,
-                                    "snippet": {
-                                        "text": "name=\"app_name\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 1,
-                                    "endLine": 6,
-                                    "snippet": {
-                                        "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n    <string name=\"app_name\">Firebase Lab</string>\n    <string name=\"rc_default_title\">Bem-vindo ao Remote Config</string>\n    <string name=\"rc_default_message\">Esta mensagem está salva no aplicativo. Publique novos valores no Firebase para alterá-la.</string>\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "fixes": [
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "49049bae690355d9"
-                    }
-                },
-                {
                     "ruleId": "MissingApplicationIcon",
                     "ruleIndex": 2,
                     "message": {
@@ -628,7 +491,7 @@
                                     "startLine": 4,
                                     "endLine": 9,
                                     "snippet": {
-                                        "text": "    <uses-permission android:name=\"android.permission.INTERNET\" />\n\n    <application\n        android:allowBackup=\"true\"\n        android:label=\"Firebase Lab\"\n"
+                                        "text": "    <uses-permission android:name=\"android.permission.INTERNET\" />\n\n    <application\n        android:allowBackup=\"true\"\n        android:label=\"@string/app_name\"\n"
                                     }
                                 }
                             }
@@ -662,7 +525,7 @@
                         }
                     ],
                     "partialFingerprints": {
-                        "sourceContext/v1": "c577510a70bd6d79"
+                        "sourceContext/v1": "09460f73587bc898"
                     }
                 },
                 {
@@ -683,7 +546,7 @@
                                     "startColumn": 29,
                                     "endLine": 47,
                                     "endColumn": 71,
-                                    "charOffset": 965,
+                                    "charOffset": 953,
                                     "charLength": 42,
                                     "snippet": {
                                         "text": "\"com.google.firebase:firebase-bom:34.19.0\""
@@ -743,7 +606,7 @@
                                             "deletedRegion": {
                                                 "startLine": 47,
                                                 "startColumn": 29,
-                                                "charOffset": 965,
+                                                "charOffset": 953,
                                                 "endLine": 47,
                                                 "endColumn": 71,
                                                 "charLength": 42
@@ -779,7 +642,7 @@
                                     "startColumn": 20,
                                     "endLine": 48,
                                     "endColumn": 55,
-                                    "charOffset": 1029,
+                                    "charOffset": 1017,
                                     "charLength": 35,
                                     "snippet": {
                                         "text": "\"com.google.firebase:firebase-auth\""
@@ -829,7 +692,7 @@
                                             "deletedRegion": {
                                                 "startLine": 48,
                                                 "startColumn": 20,
-                                                "charOffset": 1029,
+                                                "charOffset": 1017,
                                                 "endLine": 48,
                                                 "endColumn": 55,
                                                 "charLength": 35
@@ -865,7 +728,7 @@
                                     "startColumn": 20,
                                     "endLine": 49,
                                     "endColumn": 60,
-                                    "charOffset": 1085,
+                                    "charOffset": 1073,
                                     "charLength": 40,
                                     "snippet": {
                                         "text": "\"com.google.firebase:firebase-functions\""
@@ -915,7 +778,7 @@
                                             "deletedRegion": {
                                                 "startLine": 49,
                                                 "startColumn": 20,
-                                                "charOffset": 1085,
+                                                "charOffset": 1073,
                                                 "endLine": 49,
                                                 "endColumn": 60,
                                                 "charLength": 40
@@ -951,7 +814,7 @@
                                     "startColumn": 20,
                                     "endLine": 50,
                                     "endColumn": 60,
-                                    "charOffset": 1146,
+                                    "charOffset": 1134,
                                     "charLength": 40,
                                     "snippet": {
                                         "text": "\"com.google.firebase:firebase-firestore\""
@@ -1001,7 +864,7 @@
                                             "deletedRegion": {
                                                 "startLine": 50,
                                                 "startColumn": 20,
-                                                "charOffset": 1146,
+                                                "charOffset": 1134,
                                                 "endLine": 50,
                                                 "endColumn": 60,
                                                 "charLength": 40
@@ -1037,7 +900,7 @@
                                     "startColumn": 20,
                                     "endLine": 51,
                                     "endColumn": 57,
-                                    "charOffset": 1207,
+                                    "charOffset": 1195,
                                     "charLength": 37,
                                     "snippet": {
                                         "text": "\"com.google.firebase:firebase-config\""
@@ -1087,7 +950,7 @@
                                             "deletedRegion": {
                                                 "startLine": 51,
                                                 "startColumn": 20,
-                                                "charOffset": 1207,
+                                                "charOffset": 1195,
                                                 "endLine": 51,
                                                 "endColumn": 57,
                                                 "charLength": 37
@@ -1117,109 +980,31 @@
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java"
+                                    "uri": "app/src/main/java/com/example/authfirebase/LoginActivity.java"
                                 },
                                 "region": {
-                                    "startLine": 53,
-                                    "startColumn": 40,
-                                    "endLine": 53,
-                                    "endColumn": 122,
-                                    "charOffset": 2219,
-                                    "charLength": 82,
-                                    "snippet": {
-                                        "text": "\"Não foi possível preparar o Remote Config. Os valores locais continuam visíveis.\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 51,
-                                    "endLine": 56,
-                                    "snippet": {
-                                        "text": "                .addOnCompleteListener(this, task -> {\n                    if (!task.isSuccessful()) {\n                        origem.setText(\"Não foi possível preparar o Remote Config. Os valores locais continuam visíveis.\");\n                        Toast.makeText(this, \"Falha ao iniciar Remote Config.\", Toast.LENGTH_LONG).show();\n                        return;\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "9ee65ec4858f84bb"
-                    }
-                },
-                {
-                    "ruleId": "SetTextI18n",
-                    "ruleIndex": 4,
-                    "message": {
-                        "text": "String literal in setText can not be translated. Use Android resources instead.",
-                        "markdown": "String literal in `setText` can not be translated. Use Android resources instead."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java"
-                                },
-                                "region": {
-                                    "startLine": 64,
+                                    "startLine": 78,
                                     "startColumn": 24,
-                                    "endLine": 64,
-                                    "endColumn": 63,
-                                    "charOffset": 2673,
-                                    "charLength": 39,
+                                    "endLine": 78,
+                                    "endColumn": 39,
+                                    "charOffset": 2786,
+                                    "charLength": 15,
                                     "snippet": {
-                                        "text": "\"Buscando configurações no Firebase...\""
+                                        "text": "\"Autenticando…\""
                                     }
                                 },
                                 "contextRegion": {
-                                    "startLine": 62,
-                                    "endLine": 67,
+                                    "startLine": 76,
+                                    "endLine": 81,
                                     "snippet": {
-                                        "text": "    private void buscarConfiguracoes() {\n        buscar.setEnabled(false);\n        origem.setText(\"Buscando configurações no Firebase...\");\n\n        remoteConfig.fetchAndActivate().addOnCompleteListener(this, task -> {\n"
+                                        "text": "    private void acompanhar() {\n        carregando(true);\n        status.setText(\"Autenticando…\");\n        Task<AuthResult> tarefa = state.pending;\n        tarefa.addOnCompleteListener(this, resultado -> {\n"
                                     }
                                 }
                             }
                         }
                     ],
                     "partialFingerprints": {
-                        "sourceContext/v1": "6ce73bfda435b43d"
-                    }
-                },
-                {
-                    "ruleId": "SetTextI18n",
-                    "ruleIndex": 4,
-                    "message": {
-                        "text": "String literal in setText can not be translated. Use Android resources instead.",
-                        "markdown": "String literal in `setText` can not be translated. Use Android resources instead."
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/java/com/example/authfirebase/remoteconfig/RemoteConfigActivity.java"
-                                },
-                                "region": {
-                                    "startLine": 69,
-                                    "startColumn": 32,
-                                    "endLine": 69,
-                                    "endColumn": 87,
-                                    "charOffset": 2902,
-                                    "charLength": 55,
-                                    "snippet": {
-                                        "text": "\"Falha na busca. Os valores atuais continuam visíveis.\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 67,
-                                    "endLine": 72,
-                                    "snippet": {
-                                        "text": "            buscar.setEnabled(true);\n            if (!task.isSuccessful()) {\n                origem.setText(\"Falha na busca. Os valores atuais continuam visíveis.\");\n                Toast.makeText(this, \"Não foi possível buscar: \"\n                        + (task.getException() == null ? \"verifique a conexão\"\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "adb1167957686c1f"
+                        "sourceContext/v1": "12a6c8bf9d705e73"
                     }
                 },
                 {
@@ -1382,39 +1167,273 @@
                     "ruleId": "HardcodedText",
                     "ruleIndex": 1,
                     "message": {
-                        "text": "Hardcoded string \"Firebase Lab\", should use @string resource",
-                        "markdown": "Hardcoded string \"Firebase Lab\", should use `@string` resource"
+                        "text": "Hardcoded string \"Entrar no FireBaseLab\", should use @string resource",
+                        "markdown": "Hardcoded string \"Entrar no FireBaseLab\", should use `@string` resource"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
                                     "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/res/layout/activity_main.xml"
+                                    "uri": "app/src/main/res/layout/activity_login.xml"
                                 },
                                 "region": {
-                                    "startLine": 19,
+                                    "startLine": 8,
                                     "startColumn": 13,
-                                    "endLine": 19,
-                                    "endColumn": 40,
-                                    "charOffset": 670,
-                                    "charLength": 27,
+                                    "endLine": 8,
+                                    "endColumn": 49,
+                                    "charOffset": 510,
+                                    "charLength": 36,
                                     "snippet": {
-                                        "text": "android:text=\"Firebase Lab\""
+                                        "text": "android:text=\"Entrar no FireBaseLab\""
                                     }
                                 },
                                 "contextRegion": {
-                                    "startLine": 17,
-                                    "endLine": 22,
+                                    "startLine": 6,
+                                    "endLine": 11,
                                     "snippet": {
-                                        "text": "            android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\"\n            android:text=\"Firebase Lab\"\n            android:textColor=\"@color/text_primary\"\n            android:textSize=\"26sp\"\n"
+                                        "text": "        android:orientation=\"vertical\" android:padding=\"28dp\">\n        <TextView android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\"\n            android:text=\"Entrar no FireBaseLab\" android:textSize=\"26sp\" android:textStyle=\"bold\" />\n        <TextView android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\"\n            android:layout_marginTop=\"12dp\" android:text=\"Entre com sua conta ou crie uma para acessar o aplicativo.\" />\n"
                                     }
                                 }
                             }
                         }
                     ],
                     "partialFingerprints": {
-                        "sourceContext/v1": "d025d4ed87d0fae8"
+                        "sourceContext/v1": "9d7441e018834986"
+                    }
+                },
+                {
+                    "ruleId": "HardcodedText",
+                    "ruleIndex": 1,
+                    "message": {
+                        "text": "Hardcoded string \"Entre com sua conta ou crie uma para acessar o aplicativo.\", should use @string resource",
+                        "markdown": "Hardcoded string \"Entre com sua conta ou crie uma para acessar o aplicativo.\", should use `@string` resource"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uriBaseId": "%SRCROOT%",
+                                    "uri": "app/src/main/res/layout/activity_login.xml"
+                                },
+                                "region": {
+                                    "startLine": 10,
+                                    "startColumn": 45,
+                                    "endLine": 10,
+                                    "endColumn": 118,
+                                    "charOffset": 734,
+                                    "charLength": 73,
+                                    "snippet": {
+                                        "text": "android:text=\"Entre com sua conta ou crie uma para acessar o aplicativo.\""
+                                    }
+                                },
+                                "contextRegion": {
+                                    "startLine": 8,
+                                    "endLine": 13,
+                                    "snippet": {
+                                        "text": "            android:text=\"Entrar no FireBaseLab\" android:textSize=\"26sp\" android:textStyle=\"bold\" />\n        <TextView android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\"\n            android:layout_marginTop=\"12dp\" android:text=\"Entre com sua conta ou crie uma para acessar o aplicativo.\" />\n        <EditText android:id=\"@+id/loginEmail\" android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\" android:layout_marginTop=\"24dp\"\n"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "sourceContext/v1": "8985693f9244b8d9"
+                    }
+                },
+                {
+                    "ruleId": "HardcodedText",
+                    "ruleIndex": 1,
+                    "message": {
+                        "text": "Hardcoded string \"E-mail\", should use @string resource",
+                        "markdown": "Hardcoded string \"E-mail\", should use `@string` resource"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uriBaseId": "%SRCROOT%",
+                                    "uri": "app/src/main/res/layout/activity_login.xml"
+                                },
+                                "region": {
+                                    "startLine": 13,
+                                    "startColumn": 38,
+                                    "endLine": 13,
+                                    "endColumn": 59,
+                                    "charOffset": 1012,
+                                    "charLength": 21,
+                                    "snippet": {
+                                        "text": "android:hint=\"E-mail\""
+                                    }
+                                },
+                                "contextRegion": {
+                                    "startLine": 11,
+                                    "endLine": 16,
+                                    "snippet": {
+                                        "text": "        <EditText android:id=\"@+id/loginEmail\" android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\" android:layout_marginTop=\"24dp\"\n            android:minHeight=\"48dp\" android:hint=\"E-mail\" android:inputType=\"textEmailAddress\"\n            android:autofillHints=\"emailAddress\" android:maxLines=\"1\" />\n        <EditText android:id=\"@+id/loginSenha\" android:layout_width=\"match_parent\"\n"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "sourceContext/v1": "b5973cde6ea906e8"
+                    }
+                },
+                {
+                    "ruleId": "HardcodedText",
+                    "ruleIndex": 1,
+                    "message": {
+                        "text": "Hardcoded string \"Senha\", should use @string resource",
+                        "markdown": "Hardcoded string \"Senha\", should use `@string` resource"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uriBaseId": "%SRCROOT%",
+                                    "uri": "app/src/main/res/layout/activity_login.xml"
+                                },
+                                "region": {
+                                    "startLine": 16,
+                                    "startColumn": 75,
+                                    "endLine": 16,
+                                    "endColumn": 95,
+                                    "charOffset": 1301,
+                                    "charLength": 20,
+                                    "snippet": {
+                                        "text": "android:hint=\"Senha\""
+                                    }
+                                },
+                                "contextRegion": {
+                                    "startLine": 14,
+                                    "endLine": 19,
+                                    "snippet": {
+                                        "text": "            android:autofillHints=\"emailAddress\" android:maxLines=\"1\" />\n        <EditText android:id=\"@+id/loginSenha\" android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\" android:minHeight=\"48dp\" android:hint=\"Senha\"\n            android:inputType=\"textPassword\" android:autofillHints=\"password\"\n            android:saveEnabled=\"false\" android:maxLines=\"1\" />\n"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "sourceContext/v1": "51973ea196387f74"
+                    }
+                },
+                {
+                    "ruleId": "HardcodedText",
+                    "ruleIndex": 1,
+                    "message": {
+                        "text": "Hardcoded string \"Entrar\", should use @string resource",
+                        "markdown": "Hardcoded string \"Entrar\", should use `@string` resource"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uriBaseId": "%SRCROOT%",
+                                    "uri": "app/src/main/res/layout/activity_login.xml"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 86,
+                                    "endLine": 26,
+                                    "endColumn": 107,
+                                    "charOffset": 2080,
+                                    "charLength": 21,
+                                    "snippet": {
+                                        "text": "android:text=\"Entrar\""
+                                    }
+                                },
+                                "contextRegion": {
+                                    "startLine": 24,
+                                    "endLine": 29,
+                                    "snippet": {
+                                        "text": "            android:accessibilityLiveRegion=\"polite\" />\n        <com.google.android.material.button.MaterialButton android:id=\"@+id/btnEntrar\"\n            android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\" android:text=\"Entrar\" />\n        <com.google.android.material.button.MaterialButton android:id=\"@+id/btnCriarConta\"\n            android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\" android:text=\"Criar conta\" />\n"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "sourceContext/v1": "7fba892bacad3da0"
+                    }
+                },
+                {
+                    "ruleId": "HardcodedText",
+                    "ruleIndex": 1,
+                    "message": {
+                        "text": "Hardcoded string \"Criar conta\", should use @string resource",
+                        "markdown": "Hardcoded string \"Criar conta\", should use `@string` resource"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uriBaseId": "%SRCROOT%",
+                                    "uri": "app/src/main/res/layout/activity_login.xml"
+                                },
+                                "region": {
+                                    "startLine": 28,
+                                    "startColumn": 86,
+                                    "endLine": 28,
+                                    "endColumn": 112,
+                                    "charOffset": 2281,
+                                    "charLength": 26,
+                                    "snippet": {
+                                        "text": "android:text=\"Criar conta\""
+                                    }
+                                },
+                                "contextRegion": {
+                                    "startLine": 26,
+                                    "endLine": 31,
+                                    "snippet": {
+                                        "text": "            android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\" android:text=\"Entrar\" />\n        <com.google.android.material.button.MaterialButton android:id=\"@+id/btnCriarConta\"\n            android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\" android:text=\"Criar conta\" />\n        <com.google.android.material.button.MaterialButton android:id=\"@+id/btnVoltarLogin\"\n            android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\" android:text=\"Voltar\" />\n"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "sourceContext/v1": "bff2d4d5acf87285"
+                    }
+                },
+                {
+                    "ruleId": "HardcodedText",
+                    "ruleIndex": 1,
+                    "message": {
+                        "text": "Hardcoded string \"Voltar\", should use @string resource",
+                        "markdown": "Hardcoded string \"Voltar\", should use `@string` resource"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uriBaseId": "%SRCROOT%",
+                                    "uri": "app/src/main/res/layout/activity_login.xml"
+                                },
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 86,
+                                    "endLine": 30,
+                                    "endColumn": 107,
+                                    "charOffset": 2488,
+                                    "charLength": 21,
+                                    "snippet": {
+                                        "text": "android:text=\"Voltar\""
+                                    }
+                                },
+                                "contextRegion": {
+                                    "startLine": 28,
+                                    "endLine": 33,
+                                    "snippet": {
+                                        "text": "            android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\" android:text=\"Criar conta\" />\n        <com.google.android.material.button.MaterialButton android:id=\"@+id/btnVoltarLogin\"\n            android:layout_width=\"match_parent\" android:layout_height=\"wrap_content\" android:text=\"Voltar\" />\n    </LinearLayout>\n</ScrollView>\n"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "sourceContext/v1": "d0e239005ab8a3c5"
                     }
                 },
                 {
@@ -1436,7 +1455,7 @@
                                     "startColumn": 13,
                                     "endLine": 28,
                                     "endColumn": 69,
-                                    "charOffset": 998,
+                                    "charOffset": 1002,
                                     "charLength": 56,
                                     "snippet": {
                                         "text": "android:text=\"Escolha uma funcionalidade para explorar:\""
@@ -1475,7 +1494,7 @@
                                     "startColumn": 13,
                                     "endLine": 37,
                                     "endColumn": 43,
-                                    "charOffset": 1406,
+                                    "charOffset": 1410,
                                     "charLength": 30,
                                     "snippet": {
                                         "text": "android:text=\"Cloud Functions\""
@@ -1514,7 +1533,7 @@
                                     "startColumn": 13,
                                     "endLine": 46,
                                     "endColumn": 41,
-                                    "charOffset": 1774,
+                                    "charOffset": 1778,
                                     "charLength": 28,
                                     "snippet": {
                                         "text": "android:text=\"Remote Config\""
@@ -1553,7 +1572,7 @@
                                     "startColumn": 13,
                                     "endLine": 55,
                                     "endColumn": 47,
-                                    "charOffset": 2135,
+                                    "charOffset": 2139,
                                     "charLength": 34,
                                     "snippet": {
                                         "text": "android:text=\"Tarefas (Firestore)\""
@@ -1805,162 +1824,6 @@
                     ],
                     "partialFingerprints": {
                         "sourceContext/v1": "da5c6c2725a2d641"
-                    }
-                },
-                {
-                    "ruleId": "HardcodedText",
-                    "ruleIndex": 1,
-                    "message": {
-                        "text": "Hardcoded string \"Voltar\", should use @string resource",
-                        "markdown": "Hardcoded string \"Voltar\", should use `@string` resource"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/res/layout/remote_config_demo.xml"
-                                },
-                                "region": {
-                                    "startLine": 20,
-                                    "startColumn": 13,
-                                    "endLine": 20,
-                                    "endColumn": 34,
-                                    "charOffset": 708,
-                                    "charLength": 21,
-                                    "snippet": {
-                                        "text": "android:text=\"Voltar\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 18,
-                                    "endLine": 23,
-                                    "snippet": {
-                                        "text": "            android:layout_width=\"wrap_content\"\n            android:layout_height=\"wrap_content\"\n            android:text=\"Voltar\"\n            android:textAllCaps=\"false\" />\n\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "05ef5675c143c754"
-                    }
-                },
-                {
-                    "ruleId": "HardcodedText",
-                    "ruleIndex": 1,
-                    "message": {
-                        "text": "Hardcoded string \"Firebase Remote Config\", should use @string resource",
-                        "markdown": "Hardcoded string \"Firebase Remote Config\", should use `@string` resource"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/res/layout/remote_config_demo.xml"
-                                },
-                                "region": {
-                                    "startLine": 27,
-                                    "startColumn": 13,
-                                    "endLine": 27,
-                                    "endColumn": 50,
-                                    "charOffset": 945,
-                                    "charLength": 37,
-                                    "snippet": {
-                                        "text": "android:text=\"Firebase Remote Config\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 25,
-                                    "endLine": 30,
-                                    "snippet": {
-                                        "text": "            android:layout_height=\"wrap_content\"\n            android:layout_marginTop=\"18dp\"\n            android:text=\"Firebase Remote Config\"\n            android:textColor=\"@color/text_secondary\"\n            android:textSize=\"16sp\" />\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "b8a1232348a10e4a"
-                    }
-                },
-                {
-                    "ruleId": "HardcodedText",
-                    "ruleIndex": 1,
-                    "message": {
-                        "text": "Hardcoded string \"Exibindo valores padrão do aplicativo\", should use @string resource",
-                        "markdown": "Hardcoded string \"Exibindo valores padrão do aplicativo\", should use `@string` resource"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/res/layout/remote_config_demo.xml"
-                                },
-                                "region": {
-                                    "startLine": 62,
-                                    "startColumn": 13,
-                                    "endLine": 62,
-                                    "endColumn": 65,
-                                    "charOffset": 2285,
-                                    "charLength": 52,
-                                    "snippet": {
-                                        "text": "android:text=\"Exibindo valores padrão do aplicativo\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 60,
-                                    "endLine": 65,
-                                    "snippet": {
-                                        "text": "            android:layout_height=\"wrap_content\"\n            android:layout_marginTop=\"24dp\"\n            android:text=\"Exibindo valores padrão do aplicativo\"\n            android:textColor=\"@color/text_secondary\"\n            android:textSize=\"14sp\" />\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "2438a8e92b984872"
-                    }
-                },
-                {
-                    "ruleId": "HardcodedText",
-                    "ruleIndex": 1,
-                    "message": {
-                        "text": "Hardcoded string \"Buscar configurações\", should use @string resource",
-                        "markdown": "Hardcoded string \"Buscar configurações\", should use `@string` resource"
-                    },
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uriBaseId": "%SRCROOT%",
-                                    "uri": "app/src/main/res/layout/remote_config_demo.xml"
-                                },
-                                "region": {
-                                    "startLine": 72,
-                                    "startColumn": 13,
-                                    "endLine": 72,
-                                    "endColumn": 48,
-                                    "charOffset": 2733,
-                                    "charLength": 35,
-                                    "snippet": {
-                                        "text": "android:text=\"Buscar configurações\""
-                                    }
-                                },
-                                "contextRegion": {
-                                    "startLine": 70,
-                                    "endLine": 75,
-                                    "snippet": {
-                                        "text": "            android:layout_marginTop=\"20dp\"\n            android:enabled=\"false\"\n            android:text=\"Buscar configurações\"\n            android:textAllCaps=\"false\"\n            app:cornerRadius=\"6dp\" />\n"
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "partialFingerprints": {
-                        "sourceContext/v1": "0795e0f77439f78b"
                     }
                 }
             ]

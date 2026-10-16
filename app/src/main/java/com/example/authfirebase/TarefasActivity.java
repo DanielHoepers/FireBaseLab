@@ -1,5 +1,6 @@
 package com.example.authfirebase;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -44,7 +45,7 @@ public class TarefasActivity extends AppCompatActivity {
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user == null) {
-            Toast.makeText(this, "Tarefas requer uma sessão Firebase já existente neste aparelho.", Toast.LENGTH_LONG).show();
+            startActivity(new Intent(this, LoginActivity.class));
             finish();
             return;
         }

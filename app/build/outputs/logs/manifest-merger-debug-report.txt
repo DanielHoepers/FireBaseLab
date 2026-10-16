@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-27:12
-MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:2:1-4:12
 INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:2:1-4:12
 INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:2:1-4:12
@@ -122,9 +122,9 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users
 	android:name
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-25:19
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:6:5-26:19
 INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:3:5-56
 MERGED from [com.google.android.material:material:1.14.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/038be3850ab5deca18889600fac7c728/transformed/material-1.14.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.14.0] /Users/danielhoepers/.gradle/caches/9.5.0/transforms/038be3850ab5deca18889600fac7c728/transformed/material-1.14.0/AndroidManifest.xml:22:5-20
@@ -202,40 +202,46 @@ MERGED from [com.google.android.play:core-common:2.0.3] /Users/danielhoepers/.gr
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:10:9-50
 	android:usesCleartextTraffic
 		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml:3:18-53
-activity#com.example.authfirebase.TarefasActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:9-78
-	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:51-75
-	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:19-50
-activity#com.example.authfirebase.CloudFunctionActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:9-84
-	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:57-81
-	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:19-56
-activity#com.example.authfirebase.RemoteConfigActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:9-83
-	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:56-80
-	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:19-55
 activity#com.example.authfirebase.MainActivity
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:16:9-23:20
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:9-75
 	android:exported
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:18:13-36
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:48-72
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:17:13-41
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:12:19-47
+activity#com.example.authfirebase.TarefasActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:9-78
+	android:exported
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:51-75
+	android:name
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:13:19-50
+activity#com.example.authfirebase.CloudFunctionActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:9-84
+	android:exported
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:57-81
+	android:name
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:14:19-56
+activity#com.example.authfirebase.RemoteConfigActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:15:9-83
+	android:exported
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:15:56-80
+	android:name
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:15:19-55
+activity#com.example.authfirebase.LoginActivity
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:17:9-24:20
+	android:exported
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:18:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:19:13-22:29
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/danielhoepers/AndroidStudioProjects/AuthFirebase/app/src/debug/AndroidManifest.xml

@@ -24,7 +24,7 @@
   <artifact
       classOutputs="build/intermediates/javac/debug/compileDebugJavaWithJavac/classes:build/intermediates/built_in_kotlinc/debug/compileDebugKotlin/classes:build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar"
       type="MAIN"
-      applicationId="com.example.authfirebase"
+      applicationId="FireBase.Lab"
       generatedSourceFolders="build/generated/ap_generated_sources/debug/out:build/generated/source/buildConfig/debug"
       generatedResourceFolders="build/generated/res/processDebugGoogleServices"
       desugaredMethodsFiles="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/685a90be984c5999a302d47896f6bf43/transformed/D8BackportedDesugaredMethods.txt">

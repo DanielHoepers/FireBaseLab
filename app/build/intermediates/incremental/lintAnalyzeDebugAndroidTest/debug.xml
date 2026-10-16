@@ -23,7 +23,7 @@
   </testFixturesSourceProviders>
   <artifact
       type="INSTRUMENTATION_TEST"
-      applicationId="com.example.authfirebase.test"
+      applicationId="FireBase.Lab.test"
       desugaredMethodsFiles="/Users/danielhoepers/.gradle/caches/9.5.0/transforms/685a90be984c5999a302d47896f6bf43/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

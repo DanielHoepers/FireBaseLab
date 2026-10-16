@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+cd "$(dirname "$0")"
+project_id=$(node -p 'require("./app/google-services.json").project_info.project_id')
+
 if command -v adb >/dev/null 2>&1; then
     adb_tool=adb
 else
@@ -15,7 +18,7 @@ fi
 "$adb_tool" reverse tcp:5001 tcp:5001
 
 if command -v firebase >/dev/null 2>&1; then
-    exec firebase emulators:start --only functions --project fir-lab-5b421
+    exec firebase emulators:start --only functions --project "$project_id"
 fi
 
-exec npx firebase-tools emulators:start --only functions --project fir-lab-5b421
+exec npx firebase-tools emulators:start --only functions --project "$project_id"

@@ -3,7 +3,7 @@
     <map id="UnsafeIntentLaunch">
             <map id="unprotected">
                 <entry
-                    name="com.example.authfirebase.MainActivity"
+                    name="com.example.authfirebase.LoginActivity"
                     boolean="true"/>
             </map>
     </map>
@@ -24,17 +24,9 @@
             endLine="8"
             endColumn="32"
             endOffset="328"/>
-        <location id="R.string.app_name"
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
-            line="3"
-            column="13"
-            startOffset="63"
-            endLine="3"
-            endColumn="28"
-            endOffset="78"/>
         <entry
             name="model"
-            string="color[text_primary(U),text_secondary(U),firebase_blue(U),firebase_orange(U),screen_background(U),success_green(D),error_red(D)],id[btnVoltar(U),btnExecutarFuncao(U),btnFuncaoNuvem(U),btnRemoteConfig(U),btnTarefas(U),campoTitulo(U),btnAdicionar(U),listaTarefas(U),faixaDestaque(U),textTituloConfig(U),textMensagemConfig(U),textOrigemConfig(U),btnBuscarConfiguracoes(U)],layout[activity_cloud_function(U),activity_main(U),activity_tarefas(U),remote_config_demo(U)],string[rc_default_title(U),rc_default_message(U),app_name(D)],style[Theme_AuthFirebase(U),Theme_Material3_DayNight_NoActionBar(R)],xml[remote_config_defaults(U)];14^0^1,15^0^1,16^0^1,17^1^2^18^19^0,1b^1c^2^3^4;;;"/>
+            string="color[text_primary(U),text_secondary(U),firebase_blue(U),firebase_orange(U),screen_background(U),success_green(D),error_red(D)],id[btnVoltar(U),btnExecutarFuncao(U),loginEmail(U),loginSenha(U),loginProgresso(U),loginStatus(U),btnEntrar(U),btnCriarConta(U),btnVoltarLogin(U),btnFuncaoNuvem(U),btnRemoteConfig(U),btnTarefas(U),faixaDestaque(U),textTituloConfig(U),textMensagemConfig(U),textStatusConfig(U),btnBuscarConfiguracoes(U),campoTitulo(U),btnAdicionar(U),listaTarefas(U)],layout[activity_cloud_function(U),activity_login(U),activity_main(U),activity_remote_config(U),activity_tarefas(U)],string[app_name(U),rc_back(U),rc_screen_title(U),rc_default_title(U),rc_default_message(U),rc_initializing(U),rc_fetch(U),rc_loading(U),rc_applied(U),rc_init_error(U),rc_fetch_error(U),rc_invalid_color(U)],style[Theme_AuthFirebase(U),Theme_Material3_DayNight_NoActionBar(R)],xml[remote_config_defaults(U)];1b^0^1,1d^20^0^1,1e^21^22^1^2^23^24^0^25^26,1f^0^1,2c^2d^2^3^4;;;"/>
     </map>
 
 </incidents>

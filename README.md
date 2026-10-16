@@ -11,13 +11,13 @@ Aplicativo Android em Java para demonstrar Cloud Functions, Remote Config e Clou
 
 ## Telas
 
-O aplicativo abre em `MainActivity`, com as opções **Cloud Functions**, **Remote Config** e **Tarefas (Firestore)**. As telas de cadastro, login, recuperação de senha, verificação de e-mail e token foram retiradas.
+O aplicativo inicia em `LoginActivity`. Após autenticar, abre o menu `MainActivity`, com as opções **Cloud Functions**, **Remote Config** e **Tarefas (Firestore)**. Sem uma sessão, o app apresenta login com e-mail e senha e a opção Criar conta antes de permitir acesso ao menu. Com uma sessão válida, segue diretamente para o menu.
 
 Na tela **Cloud Functions**, toque em **Executar função**. O app chama `saudacao`, uma função HTTPS callable em `us-central1`, e mostra a resposta recebida em uma notificação. Essa demonstração não grava dados.
 
 Na tela **Remote Config**, o título, a mensagem e a cor de destaque vêm dos parâmetros `TITULO_APP`, `MENSAGEM_APP` e `COR_DESTAQUE`. Sem valores remotos já ativados, são exibidos os valores padrão locais de `app/src/main/res/xml/remote_config_defaults.xml`. O botão **Buscar configurações** busca e ativa os valores publicados. Em compilações de depuração, o intervalo mínimo de busca é **0 segundos** para permitir vários testes durante uma apresentação; em produção, é **12 horas**. O serviço ainda pode limitar buscas excessivas.
 
-Na tela **Tarefas (Firestore)**, uma sessão Firebase já existente no aparelho permite criar tarefas em `usuarios/{uid}/tarefas` e ver a lista atualizar em tempo real. Toque numa tarefa para concluí-la e segure para excluí-la. O aplicativo não oferece mais uma tela para entrar nessa sessão; em uma instalação nova, Tarefas não poderá ser usada até que exista uma sessão válida.
+Na tela **Tarefas (Firestore)**, entre com e-mail e senha ou toque em **Criar conta**. No console Firebase, habilite **Authentication → Sign-in method → E-mail/senha**. O app mantém a sessão para os próximos acessos e salva as tarefas em `usuarios/{uid}/tarefas`. Toque numa tarefa para concluí-la e segure para excluí-la.
 
 ## Configurar e apresentar o Remote Config
 
@@ -67,7 +67,7 @@ Deixe esse terminal aberto, execute o app no Android Studio e toque em **Executa
 
 ## Verificação rápida
 
-1. Abra o app e confira as três opções do menu.
+1. Sem uma sessão, abra o app e confira o login. Após entrar ou criar conta, confira as três opções do menu. Voltar não deve reabrir o formulário de login.
 2. Entre em **Remote Config** e confira os valores locais. Busque após publicar os parâmetros no console.
 3. Entre em **Cloud Functions** e toque em **Executar função**. A notificação deve mostrar `Olá do Firebase Cloud Functions!` quando a função local ou publicada estiver disponível.
-4. Se houver uma sessão Firebase anterior no aparelho, abra **Tarefas (Firestore)** e confira as tarefas desse usuário.
+4. Sem uma sessão, abra o app e confira o login. Teste campos vazios, senha incorreta e falta de conexão. Entre com uma conta existente ou crie uma; confira a abertura do menu e acesse Tarefas. Reabra o app e confira que a sessão foi mantida. Teste também girar a tela e colocar o app em segundo plano durante a autenticação.

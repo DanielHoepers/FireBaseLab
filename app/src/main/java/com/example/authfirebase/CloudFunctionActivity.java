@@ -45,8 +45,9 @@ public class CloudFunctionActivity extends AppCompatActivity {
                         if (!task.isSuccessful()) {
                             Log.w("CloudFunctionActivity", "Falha ao executar saudacao", task.getException());
                             Toast.makeText(this,
-                                    "Não foi possível executar a função: "
-                                            + task.getException().getMessage(),
+                                    BuildConfig.DEBUG
+                                            ? "Não foi possível acessar a função local. Execute start-local-firebase.sh no Mac com o emulador Android aberto."
+                                            : "Não foi possível executar a função. Tente novamente.",
                                     Toast.LENGTH_LONG).show();
                             return;
                         }

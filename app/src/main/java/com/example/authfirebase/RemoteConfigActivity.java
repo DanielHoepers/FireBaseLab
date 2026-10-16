@@ -2,6 +2,9 @@ package com.example.authfirebase;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
+import java.text.DateFormat;
+import java.util.Date;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -12,8 +15,10 @@ import com.google.android.gms.tasks.Tasks;
 import com.google.android.material.button.MaterialButton;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigFetchThrottledException;
 
 public class RemoteConfigActivity extends AppCompatActivity {
+    private static final String TAG = "RemoteConfigActivity";
     private static final String TITULO_APP = "TITULO_APP";
     private static final String MENSAGEM_APP = "MENSAGEM_APP";
     private static final String COR_DESTAQUE = "COR_DESTAQUE";
@@ -42,18 +47,21 @@ public class RemoteConfigActivity extends AppCompatActivity {
 
         mostrarStatus(R.string.rc_initializing);
         remoteConfig = FirebaseRemoteConfig.getInstance();
+
         long intervalo = BuildConfig.DEBUG ? 0L : 12L * 60L * 60L;
+
         FirebaseRemoteConfigSettings configuracoes = new FirebaseRemoteConfigSettings.Builder()
                 .setMinimumFetchIntervalInSeconds(intervalo)
                 .build();
 
         Tasks.whenAll(remoteConfig.setConfigSettingsAsync(configuracoes),
-                        remoteConfig.setDefaultsAsync(R.xml.remote_config_defaults))
-                .addOnCompleteListener(task -> {
+                      remoteConfig.setDefaultsAsync(R.xml.remote_config_defaults))
+                      .addOnCompleteListener(task -> {
                     if (isFinishing() || isDestroyed()) {
                         return;
                     }
                     if (!task.isSuccessful()) {
+                        Log.e(TAG, "Falha ao preparar Remote Config", task.getException());
                         mostrarStatus(R.string.rc_init_error);
                         return;
                     }
@@ -68,15 +76,32 @@ public class RemoteConfigActivity extends AppCompatActivity {
         mostrarStatus(R.string.rc_loading);
 
         // O resultado também deve liberar o botão se o app estiver em segundo plano.
+        Log.i(TAG, "Iniciando busca; intervalo mínimo: "
+                + remoteConfig.getInfo().getConfigSettings().getMinimumFetchIntervalInSeconds());
         remoteConfig.fetchAndActivate().addOnCompleteListener(task -> {
             if (isFinishing() || isDestroyed()) {
                 return;
             }
             btnBuscar.setEnabled(true);
             if (task.isSuccessful()) {
+                Log.i(TAG, "Busca concluída; novos valores ativados: " + task.getResult());
                 aplicarValores();
+                if (!Boolean.TRUE.equals(task.getResult())) {
+                    mostrarStatus("Busca concluída. Nenhuma configuração nova para ativar.");
+                }
             } else {
-                mostrarStatus(R.string.rc_fetch_error);
+                Exception erro = task.getException();
+                Log.e(TAG, "Falha ao buscar Remote Config", erro);
+                if (erro instanceof FirebaseRemoteConfigFetchThrottledException) {
+                    long fim = ((FirebaseRemoteConfigFetchThrottledException) erro)
+                            .getThrottleEndTimeMillis();
+                    String horario = DateFormat.getTimeInstance(DateFormat.MEDIUM)
+                            .format(new Date(fim));
+                    mostrarStatus("Buscas temporariamente limitadas pelo Firebase. Tente após "
+                            + horario + ". Os valores atuais foram mantidos.");
+                } else {
+                    mostrarStatus(R.string.rc_fetch_error);
+                }
             }
         });
     }
@@ -101,6 +126,10 @@ public class RemoteConfigActivity extends AppCompatActivity {
 
     // Atualiza o texto da tela e mostra um Toast com a etapa atual, substituindo o aviso anterior.
     private void mostrarStatus(int texto) {
+        mostrarStatus(getString(texto));
+    }
+
+    private void mostrarStatus(String texto) {
         status.setText(texto);
         if (aviso != null) {
             aviso.cancel();
